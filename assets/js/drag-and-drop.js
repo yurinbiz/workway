@@ -453,7 +453,7 @@
   
   }).call(this);
   $('.gridly').gridly({
-      base: 60, // px 
+      base: 10, // px 
       gutter: 10, // px
       columns: 8
     });
