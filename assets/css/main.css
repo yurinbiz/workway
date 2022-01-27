@@ -121,9 +121,6 @@ font-size: 18px!important;
     width: 59%!important;
 }
 
-.help{
-    right: -20%!important;
-    }
 
 
 }
@@ -575,9 +572,9 @@ animation: showBlock 3s linear ;
     }
 
     .help{
-        position: absolute;
-        right: -41%;
-        bottom: 259px;
+        position: fixed;
+        right: 3%;
+        bottom: 46%;
         animation: rotation 20s infinite linear;
         z-index: 1;
         cursor: pointer;
@@ -1087,6 +1084,6 @@ padding: 0 10%;
 }
 
 .help_second {
-    right: 13%;
+    right: 4%!important;
     top: 66%;
 }
