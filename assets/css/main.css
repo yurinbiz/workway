@@ -91,14 +91,13 @@ font-size: 18px!important;
     .btn_white {
         font-size: 18px!important;
     }
-    
+    .stars_svg{
+        transform: translate(88px, 45px)!important;
+    }
     }
 
 @media screen and (max-width: 1440px) {
-    
-.stars_svg{
-    transform: translate(188px, 45px)!important;
-}
+
 
 .main_img{
     transform: translate(0)!important;
@@ -362,6 +361,9 @@ body, * {
     font-family: "Montserrat", sans-serif!important;
     color: #00164C;
 }
+.Days_One{
+font-family: 'Conv_DaysOne-Regular'!important;
+}
 .header_logo_quiz_help{
     display: none;
     cursor: pointer;
@@ -612,7 +614,7 @@ animation: showBlock 3s linear ;
     }
 
     .stars_svg{
-        transform: translate(25px, 45px);
+        transform: translate(65px, 45px);
     }
 
     .main_text_container {
@@ -731,9 +733,8 @@ margin-right: 80px;
     margin-bottom: 220px;
 }
 .step_2_header {
-    width: 274px;
-}
-
+        width: 339px;
+    }
 .step_4{
     position: relative;
     background: #F1F3FA;
