@@ -446,6 +446,85 @@ border: none;
 margin-top: 80px;
 }
 
+.date_input{
+    padding: 24px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    background-image: url('../images/calendar.svg');
+    background-repeat: no-repeat;
+    background-position: right 9% center;
+    width: 32%;
+    position: relative;
+    margin-right: 60px;
+    line-height: 22px;
+    font-size: 24px;
+}
+
+
+.date_input_time {
+    width: 15.7%;
+    background-image: url('../images/arrow_down.svg');
+    background-repeat: no-repeat;
+    background-position: right 15% center;
+    position: relative;
+}
+
+.time_container_item {
+    padding: 24px;
+    border-bottom: 2px solid #F1F3FA;
+}
+
+.time_container {
+    width: 14%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 35px;
+    height: 416px;
+    overflow-y: scroll;
+    background-color: white;
+    list-style-type: none;
+    opacity: 0;
+    transition: .3s;
+    position: absolute;
+    left: 39.9%;
+    top: 74%;
+    padding: 0;
+    font-size: 24px;
+}
+.time_container_active {
+    opacity: 1;
+}
+.time_container::-webkit-scrollbar {
+   visibility: hidden;
+}
+
+.time_container_before {
+    width: 14%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 35px;
+    height: 416px;
+    overflow-y: scroll;
+    background-color: white;
+    list-style-type: none;
+    opacity: 0;
+    transition: .3s;
+    position: absolute;
+    left: 61.9%;
+    top: 74%;
+    padding: 0;
+    font-size: 24px;
+}
+
+.time_container_before_active {
+    opacity: 1;
+}
+.time_container_before::-webkit-scrollbar {
+   visibility: hidden;
+}
+
+
+
 /*ANIMATION ///////////////////////////// */
 .accordion-main .accordion-item .collapsed svg {
     transform: rotate(
@@ -553,6 +632,7 @@ height: 4px;
     background: #F1F3FA;
     border-radius: 30px;
     padding: 52px;
+    position: relative;
 }
 .btn_record {
     background-color: #183989;
@@ -578,6 +658,11 @@ height: 4px;
     border-radius: 50px;
     /* width: 312px; */
     width: fit-content;
+    transition: .3s;
+    cursor: pointer;
+}
+.link_btn:hover {
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.1);
 }
 .result_circle_svg {
     position: absolute;

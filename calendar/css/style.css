@@ -8162,7 +8162,7 @@ h1, h2, h3, h4, h5,
   background: #7e0cf5 !important; }
 
 .ftco-section {
-  padding: 7em 0; }
+  padding: 0em 0; }
 
 .ftco-no-pt {
   padding-top: 0; }
@@ -8180,27 +8180,38 @@ h1, h2, h3, h4, h5,
   background-position: center center; }
 
 .calendar {
-  width: 400px;
+  width: 27%;
   font-size: 100%;
   margin: 0 auto;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   cursor: default;
-  position: relative; }
+  position: absolute; 
+  top: 0;
+  left: 4%;
+  opacity: 0;
+  transition: .3s;
+}
+.calendar_hover {
+  opacity: 1;
+}
+
   @media (max-width: 767.98px) {
     .calendar {
       width: 100%; } }
   .calendar .header {
-    height: 100px;
+    height: 79px;
     position: relative;
     color: #fff; }
     .calendar .header .text {
+      border-top-right-radius: 19px 19px;
+      border-top-left-radius: 19px 19px;
       position: absolute;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: #308ff0;
+      background-color: white;
       padding: 15px;
       -webkit-transform: rotateX(90deg);
       transform: rotateX(90deg);
@@ -8217,14 +8228,18 @@ h1, h2, h3, h4, h5,
       opacity: 0; }
       .calendar .header .text > span {
         text-align: center;
-        padding: 20px;
+        padding: 0px;
         display: block;
         text-transform: uppercase;
-        font-weight: 400; }
+        font-weight: 500; 
+        font-size: 20px;
+      }
     .calendar .header.active .text {
       -webkit-transform: rotateX(0deg);
       transform: rotateX(0deg);
-      opacity: 1; }
+      opacity: 1;
+      top: 10px;
+     }
 
 .months {
   width: 100%;
@@ -8236,9 +8251,9 @@ h1, h2, h3, h4, h5,
     background: #ccc; }
 
 .month {
-  padding: 15px;
+  padding: 0px 31px 21px 31px;
   width: inherit;
-  height: inherit;
+  height: auto;
   background: #fff;
   position: absolute;
   -webkit-backface-visibility: hidden;
@@ -8247,7 +8262,10 @@ h1, h2, h3, h4, h5,
   -o-transition: all .4s ease-in-out 0s;
   transition: all .4s ease-in-out 0s;
   -webkit-box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.01), 0 8px 17px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.01), 0 8px 17px 0 rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.01), 0 8px 17px 0 rgba(0, 0, 0, 0.2); 
+  border-bottom-right-radius: 19px 19px;
+  border-bottom-left-radius: 19px 19px;
+}
 
 .months[data-flow="left"] .month {
   -webkit-transform: rotateY(-180deg);
@@ -8259,33 +8277,50 @@ h1, h2, h3, h4, h5,
 
 .table {
   width: 100%;
-  font-size: 10px;
+  font-size: 18px;
   font-weight: 400;
   display: table; }
   .table .row {
     display: table-row; }
     .table .row.head {
       color: #308ff0;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 700;
+     }
     .table .row .cell {
-      width: 14.28%;
+      /* width: 14.28%; */
+      cursor: pointer;
+      color: #9214A7;
+      width: 42px;
+      height: 42px;
       padding: 5px;
       text-align: center;
       display: table-cell; }
       .table .row .cell.disable {
-        color: #ccc; }
+        color: #D8DEEB; }
       .table .row .cell span {
+        font-weight: 500;
+        margin: 0 auto;
         display: block;
-        width: 28px;
-        height: 28px;
+        width: 24px;
+        height: 24px;
         line-height: 28px;
         -webkit-transition: color,background .4s ease-in-out 0s;
         -o-transition: color,background .4s ease-in-out 0s;
         transition: color,background .4s ease-in-out 0s; }
-      .table .row .cell.active span {
-        color: #fff;
-        background-color: #308ff0;
-        border-radius: 4px; }
+      .table .row .cell.active {
+        color: #fff!important;
+        background-color: #183989;
+        border-radius: 50%;
+        text-align: center;
+        width: 42px;
+        height: 42px;
+        color: white;
+       }
+       .table .row .cell.active span{
+        color: #fff!important;
+       }
 
 .months .month[data-active="true"] {
   -webkit-transform: rotateY(0);
@@ -8314,16 +8349,15 @@ h1, h2, h3, h4, h5,
     margin-left: -10px; }
     .header [data-action] > i:before, .header [data-action] > i:after {
       top: 50%;
-      margin-top: -1px;
+      margin-top: 2px;
       content: '';
       position: absolute;
-      height: 2px;
-      width: 20px;
-      border-top: 2px solid;
-      border-radius: 2px; }
+      width: 14px;
+      border-radius: 2px;
+      border-top: 4.625px solid #D8DEEB; }
 
 .header [data-action*="prev"] {
-  left: 15px; }
+  left: 16%; }
   .header [data-action*="prev"] > i:before, .header [data-action*="prev"] > i:after {
     left: 0; }
   .header [data-action*="prev"] > i:before {
@@ -8339,7 +8373,7 @@ h1, h2, h3, h4, h5,
     transform: rotate(45deg); }
 
 .header [data-action*="next"] {
-  right: 15px; }
+  right: 16%; }
   .header [data-action*="next"] > i:before, .header [data-action*="next"] > i:after {
     right: 0; }
   .header [data-action*="next"] > i:before {
