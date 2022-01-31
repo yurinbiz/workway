@@ -93,6 +93,9 @@ font-size: 18px!important;
     .stars_svg{
         transform: translate(88px, 45px)!important;
     }
+    .check_form_30 {
+        padding: 299px 24px 50px 24px!important;
+        }
     }
 
 @media screen and (max-width: 1440px) {
@@ -119,7 +122,6 @@ font-size: 18px!important;
 .quiz_drag_and_drop_container {
     width: 59%!important;
 }
-
 
 
 }
@@ -593,6 +595,189 @@ a:hover{
 .color_gold:hover{
     color: #FFAA00;
 }
+
+/* //////////////////////////////////////////////// */
+.tarif_base{
+    max-width: 71%;
+    margin: 0 auto;
+}
+.tarif_text_container{
+    width: 70%;
+    margin-left: 47px;
+}
+.tarif_circles{
+    position: absolute;
+    top: 22%;
+    left: 0;
+    z-index: -1;
+    transform: translateX(-42%);}
+.tarif_text_header{
+    font-size: 18px;
+    line-height: 22px;
+    color: #C0C9DF;
+    margin-bottom: 10px;
+}
+.tarif_text_p{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.tarif_text_des{
+    line-height: 40px;
+}
+.tarif_step_1 {
+    margin-bottom: 64px;
+    margin-top: 120px;
+    margin-left: 7%;
+}
+.check_form {
+    border-radius: 25px;
+    margin-top: 237px;
+}
+.check_form_70 {
+    width: 57%;
+    background-color: #F1F3FA;
+    padding: 50px 90px 50px 90px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.check_form_30 {
+    width: 43%;
+    background-color: #183989;
+    padding: 299px 90px 50px 90px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.input_my_check::placeholder{
+    color: #D8DEEB;
+}
+.input_promocode {
+    padding: 62px 0;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 15px;
+    outline: none;
+    width: 100%;
+    border: none;
+}
+.input_promocode::placeholder {
+    color: #C0C9DF;
+}
+.girl_tarif {
+    position: absolute;
+    right: -10%;
+    top: -180%;
+}
+.calendar_tarif{
+    width: 100%!important;
+    z-index: 2;
+}
+.date_input_time_tarif{
+    margin: 0!important;
+    width: 100%!important;
+    z-index: 3;
+}
+.date_input_time_tarif_right{
+    margin-right: 90px!important;
+}
+.tarif_step_3 {
+    margin-top: 94px;
+    margin-left: 14%;
+}
+/* //////////////////////////////////////////////// */
+input[type=radio],
+input[type=checkbox] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+.radio-label,
+.checkbox-label {
+  padding-left: 53px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.radio-label::before, .radio-label::after,
+.checkbox-label::before,
+.checkbox-label::after {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 21px;
+  position: absolute;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.radio-label::before,
+.checkbox-label::before {
+    left: 0;
+    background-color: white;
+}
+.radio-label::after,
+.checkbox-label::after {
+  left: 11px;
+  background: url("../images/checkbox.svg") no-repeat center center;
+  display: none;
+}
+
+.radio-label::before {
+  border-radius: 50%;
+}
+.checkbox-label-square::before{
+border-radius: inherit;
+width: 32px!important;
+height: 32px!important;
+}
+.radio-label::after, .checkbox-label-square::after {
+    left: 7px!important;
+    background: url(../images/checkbox.svg) no-repeat center center;
+    display: none;
+}
+
+.checkbox-label::before {
+  width: 40px;
+    border-radius: 50%;
+    height: 40px;
+}
+
+input[type=radio]:checked + label::before,
+input[type=checkbox]:checked + label::before {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: none;
+  box-shadow: none;
+}
+
+input[type=radio]:checked + label::after,
+input[type=checkbox]:checked + label::after {
+  display: block;
+}
+
+
+.form .input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.checkbox-right {
+    margin-right: 10%;
+}
+
+/* //////////////////////////////////////////////// */
+
+
 .result_progress_item_img{
     margin-right: 50px;
 }
