@@ -197,7 +197,127 @@ font-size: 18px!important;
     .header_logo_quiz_main {
         margin-bottom: 237px!important;
     }
-   
+    .result_container {
+        padding: 41px 23px 40px 23px!important;
+        border-radius: 12px!important;
+    }
+    .result_progress_list {
+        padding: 0;
+        flex-wrap: wrap;
+        margin: 40px 0!important;
+    }
+    .result_progress_item:nth-child(2n) {
+        padding-right: 0;
+        padding-left: 0%!important;
+    }
+    .result_progress_item {
+        margin-bottom: 40px!important;
+    }
+    .result_progress_item_img{
+        width: 115px!important;
+        height: 115px!important;
+        margin-right: 18px!important;
+    }
+    .result_progress_item{
+        justify-content: space-between!important;
+    }
+    .result_progress_item:nth-child(n-1) {
+        padding-right: 0!important;
+    }
+    .result_header{
+        font-size: 20px!important;
+    }
+    .record {
+        border-radius: 12px!important;
+        padding: 23px!important;
+        margin-top: 100px;
+    }
+    .record_img_mobile{
+        width: 60px;
+        height: 60px;
+    }
+    .date_input {
+        width: 100%!important;
+    }
+    .date_input_mobile {
+        padding: 24px;
+        box-shadow: 0px 0px 15px rgb(0 0 0 / 5%);
+        border-radius: 35px;
+        border: none;
+        outline: none;
+        background-image: url(../images/arrow_down.svg);
+        background-repeat: no-repeat;
+        background-position: right 9% center;
+        width: 100%;
+        position: relative;
+        margin-right: 60px;
+        line-height: 22px;
+        font-size: 24px;
+        background-color: white;
+        margin-bottom: 20px;
+    }
+    .input_none {
+        border: none;
+        outline: none;
+    }
+    .date_input{
+        margin-bottom: 20px;
+    }
+    .input_none::placeholder {
+       color: #D8DEEB;
+    }
+    
+    .date_input::placeholder{
+        color: #D8DEEB;
+    }
+    .btn_record_mobile{
+    width: 100%!important;
+    }
+    .result_text {
+        margin-top: 100px!important;
+        margin-bottom: 80px!important;
+        width: 100%!important;
+    }
+    .fs_20{
+font-size: 20px!important;
+line-height: 27px!important;
+    }
+    .circle_result{
+        justify-content: center!important;
+    }
+    .result_circle {
+        width: 100%!important;
+        background-image: url(../images/result_circle.svg);
+        background-size: cover;
+        background-repeat: repeat;
+        padding: 97px 42px 0px 42px!important;
+        position: relative;
+    }
+    .result_circду_svg_client {
+        right: 0%!important;
+        top: -3%!important;
+        width: 100px!important;
+        height: 100px!important;
+    }
+    .result_circle_svg {
+        left: 6%!important;
+        top: 12%!important;
+        width: 36px!important;
+        height: 32px!important;
+    }
+    .link_btn {
+        padding: 15px!important;
+        justify-content: center!important;
+        width: 100%!important;
+        margin-bottom: 45px!important;
+    }
+    .link_btn svg{
+        width: 20px!important;
+        height: 20px!important;
+    }
+    .dont_forget {
+        line-height: 22px!important;
+    }
 }
 @media screen and (max-width: 768px) {
     .second_quiz_wrap {
@@ -263,7 +383,42 @@ list-style-type: none;
     .connection_des {
         width: 100%!important;
     }
+    .congratulations_header {
+        margin-bottom: 15px!important;
+        line-height: 30.55px;
+    }
+    .congratulations_text {
+        width: 100%!important;
+    }
+    .congratulations_container {
+        border-radius: 15px!important;
+        padding: 18px!important;
+        margin-bottom: 50px!important;
+        min-height: 582px;
+        background-position: 0% 132%!important;
+        background-size: 105% 64%!important;
+    }
+    .formula_list_item {
+        padding: 17px!important;
+        min-height: auto!important;
+        margin-bottom: 20px!important;
+    }
+    .skill_header {
+        width: 75%;
+        font-size: 12px!important;
+        line-height: 22px!important;
+    }
+    .skill_text {
+        font-size: 16px!important;
+        line-height: 25px!important;
+    }
+    .result_wave {
+        background-image: url(../images/RESULT_WAVE.svg);
+        margin-top: 50px;
+        padding-top: 98px!important;
+    }
 }
+
 
 
 @media (min-width: 768px) {
@@ -289,7 +444,7 @@ list-style-type: none;
        margin-bottom: 40px!important;
        margin-top: 83px!important;
         }
-    .header {
+    .header_mobile {
         padding: 20px 0 20px 0!important;
         position: fixed!important;
         margin: 0!important;
@@ -404,7 +559,25 @@ body, * {
 html {
     scroll-behavior: smooth;
 }
-
+.lh_27{
+    line-height: 27px!important;
+}
+.lh_25{
+    line-height: 25px!important;
+}
+.lh_22{
+    line-height: 22px!important;
+}
+.circle_result{
+    justify-content: end;
+}
+.skill_header {
+    font-size: 16px;
+    line-height: 28px;
+}
+.result_header{
+    font-size: 36px;
+}
 .list-group::-webkit-scrollbar { width: 0 !important }
 .Days_One{
 font-family: 'Conv_DaysOne-Regular'!important;
@@ -420,7 +593,12 @@ a:hover{
 .color_gold:hover{
     color: #FFAA00;
 }
-
+.result_progress_item_img{
+    margin-right: 50px;
+}
+.result_count {
+    margin-bottom: 10px;
+}
 .search {
     border: 2px solid #F1F3FA;
     border-radius: 50px;
@@ -546,10 +724,6 @@ height: 4px;
 /* ///////////////////////////// */
 
 
-
-
-
-
 /* scroll spy////////////////////////////// */
 .list-group-item {
     color: #C0C9DF;
@@ -634,6 +808,9 @@ height: 4px;
     padding: 52px;
     position: relative;
 }
+.record::-webkit-scrollbar{
+   display: none;
+}
 .btn_record {
     background-color: #183989;
     color: white;
@@ -642,6 +819,9 @@ height: 4px;
     width: 85%;
     margin-top: 180px;
     margin-bottom: 100px;
+}
+.dont_forget {
+    line-height: 50px;
 }
 .result_circle {
     width: 68%;
@@ -660,6 +840,7 @@ height: 4px;
     width: fit-content;
     transition: .3s;
     cursor: pointer;
+    justify-content: space-between;
 }
 .link_btn:hover {
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.1);

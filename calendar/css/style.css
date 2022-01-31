@@ -4,6 +4,8 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ 
+ 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8138,7 +8140,8 @@ body {
   line-height: 1.8;
   font-weight: normal;
   background: #f8f9fd;
-  color: gray; }
+  color: gray;
+  overflow-x: hidden; }
 
 a {
   -webkit-transition: .3s all ease;
@@ -8510,3 +8513,18 @@ h1, h2, h3, h4, h5,
 [data-theme="december"] .header .text,
 [data-theme="december"] .table .row .cell.active span {
   background-color: #546E7A; }
+
+
+  @media screen and (max-width: 990px) {
+    .calendar {
+      bottom: -258px!important;
+      top: auto!important;
+      left: 0!important;
+    }
+    .header [data-action*="next"] {
+      right: 11%!important;
+  }
+  .header [data-action*="prev"] {
+    left: 11%!important;
+}
+  }
