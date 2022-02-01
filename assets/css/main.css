@@ -1602,7 +1602,7 @@ margin-right: 80px;
     height: 755px;
 }
 .steps_count{
-    transform: translate(-39px, 0);
+    transform: translate(-29px, 0);
 }
 .text_grey_container{
     padding: 19px 53px 19px 53px;
@@ -1976,4 +1976,8 @@ padding: 0 10%;
 .help_second {
     right: 4%!important;
     top: 66%;
+}
+
+.z-1{
+    z-index: 1;
 }
