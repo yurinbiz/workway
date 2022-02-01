@@ -8523,6 +8523,10 @@ h1, h2, h3, h4, h5,
       top: auto!important;
       left: 0!important;
     }
+    .calendar_tarif {
+      width: 100%!important;
+      bottom: -345px!important;
+  }
     .header [data-action*="next"] {
       right: 11%!important;
   }
