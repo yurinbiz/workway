@@ -452,7 +452,7 @@ list-style-type: none;
     }
     .formula_list_item {
         padding: 17px!important;
-        min-height: auto!important;
+        min-height: 124px!important;
         margin-bottom: 20px!important;
     }
     .skill_header {
@@ -587,7 +587,7 @@ list-style-type: none;
     }
     .header_logo_quiz_help{
         display: block!important;
-        margin-top: 44px!important;
+        margin-top: 49px!important;
     }
     .text_1 {
         width: 80%!important;
