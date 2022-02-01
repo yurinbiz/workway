@@ -374,6 +374,12 @@ font-size: 18px!important;
         font-size: 20px!important;
         line-height: 27px!important
     }
+    .promocode_mobile_tarif{
+        font-size: 20px!important;
+    }
+    .girl_tarif {
+        top: -138%!important;
+    }
 }
 
 
@@ -557,9 +563,7 @@ list-style-type: none;
     .btn_record {
        width: 146px!important;
     }
-    .check_form_70_mobile_extended{
-        border-bottom-right-radius: 25px!important;
-    }
+    
     .final_cost{
         height: auto!important;
     }
@@ -796,7 +800,6 @@ a:hover{
     background-color: #F1F3FA;
     padding: 50px 90px 50px 90px;
     border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
 }
 .check_form_30 {
     width: 43%;
@@ -1615,6 +1618,7 @@ margin-right: 80px;
 .step{
     margin-bottom: 220px;
 }
+
 .step_2_header {
         width: 339px;
     }
