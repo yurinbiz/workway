@@ -516,6 +516,14 @@ list-style-type: none;
         line-height: 27px!important;
         font-size: 16px!important;
     }
+    .faq_header{
+       margin-bottom: 40px!important;
+       margin-top: 20%!important;
+       font-size: 24px!important;
+    }
+    .accordion-main-faq {
+        margin-top: 40px!important;
+    }
 }
 
 
@@ -548,9 +556,15 @@ list-style-type: none;
         position: fixed!important;
         margin: 0!important;
         top: 0!important;
-        width: 89vw!important;
+        width: 92%!important;
         background-color: white!important;
-        }
+        z-index: 1;
+    }
+    .accordion-main .accordion-item .collapsed svg rect {
+        transform: rotate( 
+    0deg) translate(0px, 14px)!important;
+    }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -999,9 +1013,12 @@ margin-top: 80px;
 .accordion-main .accordion-item .collapsed svg rect{
     fill: #9214A7!important;
     transform: rotate(
-        0deg) translate(0px, 1px)!important;
+        0deg) translate(0px, 1px);
 width: 22px;
 height: 4px;
+}
+.faq_header{
+    align: center; margin-bottom: 80px;
 }
 /* ///////////////////////////// */
 
@@ -1235,7 +1252,7 @@ animation: showBlock 3s linear ;
     position: absolute;
     right: 32px;
     top: 32px;
-    z-index: 1;
+    z-index: 2;
     cursor: pointer;
     background-color: inherit;
     transition: .3s;
