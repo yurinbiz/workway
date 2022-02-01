@@ -602,9 +602,13 @@ list-style-type: none;
         background-color: white!important;
         z-index: 1;
     }
+    
     .accordion-main .accordion-item .collapsed svg rect {
         /* transform: rotate( 
     0deg) translate(0px, 14px)!important; */
+    }
+    .count_4 {
+        margin-right: 13px!important;
     }
 
 }
@@ -1040,7 +1044,9 @@ margin-top: 80px;
    visibility: hidden;
 }
 
-
+.count_4{
+ margin-right: 29px;
+}
 
 /*ANIMATION ///////////////////////////// */
 .accordion-main .accordion-item .collapsed svg {
