@@ -560,6 +560,10 @@ list-style-type: none;
     .check_form_70_mobile_extended{
         border-bottom-right-radius: 25px!important;
     }
+    .final_cost{
+        height: auto!important;
+    }
+    
 }
 
 
@@ -599,8 +603,8 @@ list-style-type: none;
         z-index: 1;
     }
     .accordion-main .accordion-item .collapsed svg rect {
-        transform: rotate( 
-    0deg) translate(0px, 14px)!important;
+        /* transform: rotate( 
+    0deg) translate(0px, 14px)!important; */
     }
 
 }
@@ -680,6 +684,7 @@ list-style-type: none;
         width: 92%!important;
         z-index: 2;
         background: white;
+        margin-top: 3px;
     }
     .gridly {
         margin-top: 47%!important;
@@ -1238,6 +1243,13 @@ padding: 78px 148px 0px 116px;
     background-image: url('../images/RESULT_WAVE.svg');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.final_cost{
+    display: flex;
+	flex-direction: column;
+	justify-content: end;
+	height: -webkit-fill-available;
 }
 
 /* ////////////////////////////////////// */
