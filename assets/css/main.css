@@ -95,7 +95,10 @@ font-size: 18px!important;
     }
     .check_form_30 {
         padding: 299px 24px 50px 24px!important;
-        }
+    }
+    .card_item_margin {
+        margin-bottom: 48px!important;
+    }
     }
 
 @media screen and (max-width: 1440px) {
@@ -163,6 +166,9 @@ font-size: 18px!important;
         }
     .help_header {
         font-size: 24px!important;
+    }
+    .tarif_base {
+        max-width: 80%!important;
     }
 }
 @media screen and (max-width: 990px) {
@@ -320,7 +326,51 @@ line-height: 27px!important;
     .dont_forget {
         line-height: 22px!important;
     }
+    .check_form {
+        margin-top: 80px!important;
+        flex-direction: column;
+    }
+    .check_form_70 {
+        width: 100%!important;
+        padding: 26px 23px 40px 23px!important;
+        border-top-left-radius: 12px!important;
+        border-top-right-radius: 12px!important;
+    }
+    .check_form_30 {
+        width: 100%!important;
+        padding: 89px 23px 30px 23px!important;
+        border-bottom-right-radius: 12px!important;
+        border-bottom-left-radius: 12px!important;
+        border-top-right-radius: 0!important;
+    }
+    .promocode_text_mobile{
+        font-size: 20px!important;
+        line-height: 27px;
+    }
+    .girl_tarif {
+        transform: scale(0.69);
+    }
+    .input_promocode {
+        padding: 39px 0!important;
+        margin-bottom: 30px;
+    }
+    .btn_pink_tarif{
+        padding: 0 16px!important;
+        border: none!important;
+        background-color: #9214A7!important;
+        color: white!important;
+        font-size: 14px!important;
+        width: 100%!important;
+    }
+    .tarif_cost_mobile {
+        font-size: 20px!important;
+    }
+    .check_form_header {
+        font-size: 20px!important;
+    }
 }
+
+
 @media screen and (max-width: 768px) {
     .second_quiz_wrap {
         justify-content: center!important;
@@ -418,6 +468,53 @@ list-style-type: none;
         background-image: url(../images/RESULT_WAVE.svg);
         margin-top: 50px;
         padding-top: 98px!important;
+    }
+    .connection_item {
+        margin-bottom: 0!important;
+    }
+    .tarif_base {
+        max-width: 91%!important;
+    }
+    .tarif_header_mobile {
+        margin-top: 30%!important;
+    }
+    .star_tarif{
+        bottom: 88%!important;
+        width: 24px;
+        height: 24px;
+    }
+    .tarif_circles {
+        display: none;
+    }
+    .tarif_step_1 {
+        margin-bottom: 60px!important;
+        margin-top: 60px!important;
+        margin-left: 0!important;
+    }
+    .tarif_header_text {
+        font-size: 20px!important;
+    }
+    .tarif_step_1_svg_mobile{
+        width: 42px;
+        height: 42px;
+    }
+    .tarif_text_container {
+        width: 97%!important;
+        margin-left: 15px!important;
+    }
+    .tarif_text_header {
+        font-size: 14px!important;
+        line-height: 17px!important;
+        margin-bottom: 4px!important;
+    }
+    .tarif_text_p {
+        font-size: 20px!important;
+        margin-bottom: 15px!important;
+        line-height: 25px!important;
+    }
+    .tarif_text_des {
+        line-height: 27px!important;
+        font-size: 16px!important;
     }
 }
 
@@ -915,7 +1012,7 @@ height: 4px;
     border: none;
 }
 .list-group {
-    position: fixed; top: 46%; height: fit-content;
+    position: fixed; top: 36%; height: fit-content;
     overflow-y: scroll; width: 21%;
 }
 .scroll_text {
@@ -938,7 +1035,6 @@ height: 4px;
 }
 .privice_header {
     text-align: center;
-    margin-top: 106px;
     margin-bottom: 80px;
     width: 63%;
 }
@@ -1475,7 +1571,9 @@ align-items: center;
 
 
 /*tarifs ///////////////////////////// */
-
+.star_tarif{
+    position: absolute; bottom: 79%
+}
 .tarifs {
     margin-top: 219px;
     text-align: center;
@@ -1641,7 +1739,9 @@ transform: translate(0, -267px);
     list-style-type: none;
     padding: 0;
 }
-
+.connection_item {
+margin-bottom: 25px;
+}
 .connection_des {
     width: 75%;
 }
