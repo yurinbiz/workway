@@ -294,10 +294,10 @@
 
     html body .fs-md-24 {
       font-size: 1.5rem !important;
-      line-height: 1.8375rem !important; }
+      line-height: 36px !important; }
       html body .fs-md-24 h1, html body .fs-md-24 h2, html body .fs-md-24 h3, html body .fs-md-24 h4, html body .fs-md-24 h5, html body .fs-md-24 div, html body .fs-md-24 span, html body .fs-md-24 p, html body .fs-md-24 button, html body .fs-md-24 input, html body .fs-md-24 a {
         font-size: 1.5rem !important;
-        line-height: 1.8375rem !important; }
+        line-height: 36px !important; }
     html body .fs-md-26 {
       font-size: 1.625rem !important;
       line-height: 2rem !important; }
