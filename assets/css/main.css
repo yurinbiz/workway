@@ -19,11 +19,22 @@
     }
 } */
 
+@media screen and (max-width: 1640px) {
+    .text_1 {
+        width: 33%!important;
+    }
+}
+
 @media screen and (max-width: 1480px) {
     
     .main_img{
         transform: translate(0)!important;
     }
+  
+    .text_1 {
+        width: 25%!important;
+    }
+
 }
 
 @media (min-width: 1440px) {
@@ -83,6 +94,7 @@
     .quiz_main_header {
         font-size: 26px!important;
         margin-bottom: 30px!important;
+        line-height: 30.55px!important;
     }
     .quiz_main_p {
 font-size: 18px!important;
@@ -98,6 +110,12 @@ font-size: 18px!important;
     }
     .card_item_margin {
         margin-bottom: 48px!important;
+    }
+    .time_container_before {
+        left: 59.1%!important;
+    }
+    .time_container {
+        left: 39.7%!important;
     }
     }
 
@@ -126,6 +144,11 @@ font-size: 18px!important;
     width: 59%!important;
 }
 
+.modal_text_font {
+    font-size: 18px!important;
+    line-height: 30px!important;
+}
+
 
 }
 
@@ -142,6 +165,10 @@ font-size: 18px!important;
     }
     .quiz_drag_and_drop_container {
         width: 66.3%!important;
+    }
+    .modal_text_font {
+        font-size: 16px!important;
+        line-height: 27px!important;
     }
 }
 
@@ -169,6 +196,9 @@ font-size: 18px!important;
     }
     .tarif_base {
         max-width: 80%!important;
+    }
+    .text_1 {
+        width: 30%!important;
     }
 }
 @media screen and (max-width: 990px) {
@@ -263,7 +293,9 @@ font-size: 18px!important;
         font-size: 24px;
         background-color: white;
         margin-bottom: 20px;
+        font-size: 16px;
     }
+    
     .input_none {
         border: none;
         outline: none;
@@ -380,6 +412,9 @@ font-size: 18px!important;
     .girl_tarif {
         top: -138%!important;
     }
+    .text_1 {
+        width: 40%!important;
+    }
 }
 
 
@@ -400,7 +435,7 @@ font-size: 18px!important;
         border-radius: 15px!important;
     }
     .text_1 {
-        width: 48%!important;
+        width: 60%!important;
     }
     .quiz_drag_item {
         width: 100%!important;
@@ -447,9 +482,15 @@ list-style-type: none;
     .connection_des {
         width: 100%!important;
     }
+    
     .congratulations_header {
         margin-bottom: 15px!important;
-        line-height: 30.55px;
+        line-height: 30.55px!important;
+        font-size: 24px!important;
+    }
+    .congratulations_paragraph{
+        line-height: 27px!important;
+        font-size: 16px!important;
     }
     .congratulations_text {
         width: 100%!important;
@@ -464,7 +505,7 @@ list-style-type: none;
     }
     .formula_list_item {
         padding: 17px!important;
-        min-height: 124px!important;
+        height: 124px!important;
         margin-bottom: 20px!important;
     }
     .skill_header {
@@ -557,7 +598,7 @@ list-style-type: none;
         margin-left: 0!important;
     }
     .date_input {
-        padding: 12px!important;
+        padding: 12px 21px 12px 21px!important;
         border-radius: 50px!important;
     }
     .btn_record {
@@ -568,6 +609,18 @@ list-style-type: none;
         height: auto!important;
     }
     
+    .pink_border{
+        border-radius: 2px!important;
+        margin-top: 12px!important;
+    }
+    .quiz_main_p {
+        line-height: 30px!important;    
+        font-size: 18px!important;
+    }
+    .modal_text_font {
+        font-size: 18px!important;
+        line-height: 30px!important;
+    }
 }
 
 
@@ -615,11 +668,34 @@ list-style-type: none;
         margin-right: 13px!important;
     }
 
+    .text_1 {
+        width: 100%!important;
+    }
+    .quiz_main_p {
+        line-height: 27px!important;    
+        font-size: 16px!important;
+    }
+    .input_container{
+        width: 100%;
+    }
+    .date_input::placeholder{
+        font-size: 16px!important;
+    }
+    .date_input{
+        font-size: 16px!important;
+        background-size: 26px!important;
+    }
+
 }
 
 @media screen and (max-width: 450px) {
     .modal_help {
         margin: 32% 5%!important;
+    }
+    .btn_record_margin{
+        width: 100%!important;
+        font-size: 14px!important;
+        margin-top: 40px!important;
     }
     .woman {
         width: 94px!important;
@@ -666,7 +742,7 @@ list-style-type: none;
         margin-right: 20px!important;
     }
     .quiz_header{
-        font-size: 16px!important;
+        font-size: 18px!important;
     }
     .quiz_drag_and_drop_container {
         width: 91.5%!important;
@@ -713,15 +789,55 @@ list-style-type: none;
         font-size: 18px!important;
         padding: 16px 0!important;
     }
+    .gridly_item_count {
+        margin-right: 15px!important;
+        margin-top: 197px!important;
+    }
+    .gridly_item_count_2 {
+        margin-top: 181%!important;
+    }
+    .btn_quiz_drag{
+        margin: 0!important;
+    }
+    .modal_text_font {
+        font-size: 14px!important;
+        line-height: 24px!important;
+    }
+    .close_modal {
+        right: 24px!important;
+        top: 24px!important;
+        width: 12px!important;
+        height: 12px!important;
+    }
+    .requisites_list_mobile{
+        width: 80%!important;
+    }
+    .requisites_list_mobile_height{
+line-height: 19px!important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .gridly_item_count {
+        margin-top: 187px!important;
+    }
+    .gridly_item_count_2 {
+        margin-top: 178%!important;
+    }
 }
 
 
 body, * {
     font-family: "Montserrat", sans-serif!important;
+    font-style: normal!important;
+    /* font-weight: normal!important; */
     color: #00164C;
 }
 html {
     scroll-behavior: smooth;
+}
+.input_container{
+    position: relative; margin-right: 60px;
 }
 .lh_27{
     line-height: 27px!important;
@@ -731,6 +847,17 @@ html {
 }
 .lh_22{
     line-height: 22px!important;
+}
+.lh_40{
+    line-height: 40px!important;
+}
+.modal_text_font {
+    font-size: 24px;
+    line-height: 40px;
+}
+.result_text_header{
+    font-size: 36px;
+    /* line-height: 50px; */
 }
 .circle_result{
     justify-content: end;
@@ -986,13 +1113,19 @@ margin-top: 80px;
     font-size: 24px;
 }
 
+.date_input::placeholder{
+    color: #D8DEEB;
+    font-size: 24px;
+}
+
 
 .date_input_time {
     width: 15.7%;
-    background-image: url('../images/arrow_down.svg');
+    /* background-image: url('../images/arrow_down.svg');
     background-repeat: no-repeat;
     background-position: right 15% center;
-    position: relative;
+    position: relative; */
+    background-image: none;
 }
 
 .time_container_item {
@@ -1009,18 +1142,21 @@ margin-top: 80px;
     background-color: white;
     list-style-type: none;
     opacity: 0;
+    visibility: hidden;
     transition: .3s;
     position: absolute;
-    left: 39.9%;
-    top: 74%;
+    left: 37.6%;
+    top: 67%;
     padding: 0;
     font-size: 24px;
 }
 .time_container_active {
     opacity: 1;
+    visibility: visible;
 }
 .time_container::-webkit-scrollbar {
    visibility: hidden;
+   display: none;
 }
 
 .time_container_before {
@@ -1033,18 +1169,26 @@ margin-top: 80px;
     list-style-type: none;
     opacity: 0;
     transition: .3s;
+    visibility: hidden;
     position: absolute;
-    left: 61.9%;
-    top: 74%;
+    /* left: 61.9%; */
+    /* left: 58.9%; */
+    left: 56.9%;
+
+
+    top: 67%;
     padding: 0;
     font-size: 24px;
 }
 
 .time_container_before_active {
     opacity: 1;
+    visibility: visible;
+
 }
 .time_container_before::-webkit-scrollbar {
-   visibility: hidden;
+   visibility: visible;
+   display: none;
 }
 
 .count_4{
@@ -1165,6 +1309,7 @@ height: 4px;
     background-color: #183989;
     color: white;
     border: none!important;
+    font-weight: 600;
 }
 .result_text {
     width: 85%;
@@ -1213,18 +1358,19 @@ height: 4px;
     margin-top: 50px; 
     margin-bottom: 141px;
 }
+.btn_record_margin{
+    margin-top: 64px;
+}
 /* ////////////////////////////////////// */
 .formula_list {
   flex-wrap: wrap;
 }
-
 .formula_list_item {
     padding: 25px;
     box-shadow: 0px 20px 22px rgba(10, 17, 57, 0.08);
-border-radius: 15px;
-min-height: 158px;
-margin-bottom: 30px;
-
+    border-radius: 15px;
+    height: 158px;
+    margin-bottom: 30px;
 }
 
 .formula_list_item_border {
@@ -1234,6 +1380,7 @@ margin-bottom: 30px;
 
 .skill_text {
     font-size: 22px;
+    line-height: 32px;
 }
 .result_container {
     background: #FFFFFF;
@@ -1261,6 +1408,10 @@ padding: 78px 148px 0px 116px;
 	height: -webkit-fill-available;
 }
 
+.color_blue_quiz_counter{
+    color: #C0C9DF;
+}
+
 /* ////////////////////////////////////// */
 .header_logo_result{
     margin-bottom: 80px;
@@ -1272,20 +1423,22 @@ padding: 78px 148px 0px 116px;
 
 }
 .congratulations_header {
+    font-size: 48px;
     margin-bottom: 30px;
+    line-height: 61px;
 }
 .congratulations_text {
     width: 57%;
 }
 .congratulations_container {
-border-radius: 15px;
-padding: 52px;
-background-color: #183989;
-background-image: url('../images/result_woman_img.png');
-background-position: right;
-background-size: contain;
-background-repeat: no-repeat;
-margin-bottom: 80px;
+    border-radius: 15px;
+    padding: 52px;
+    background-color: #183989;
+    background-image: url('../images/result_woman_img.png');
+    background-position: 95% 14px;
+    background-size: 35% 113%;
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
 }
 .accordion {
     display: none;
@@ -1400,6 +1553,7 @@ animation: showBlock 3s linear ;
     border-radius: 50px;
     transition: .3s;
     cursor: pointer;
+    font-weight: 600;
 }
 
 .btn_pink:hover {
@@ -1408,7 +1562,10 @@ animation: showBlock 3s linear ;
 .btn_help_margin {
     margin-top: 60px;
 }
-
+.congratulations_paragraph{
+    line-height: 36px;
+    font-size: 24px;
+}
 
 /* jQuery Gridly
  * Copyright 2013 Kevin Sylvestre
@@ -1426,7 +1583,7 @@ animation: showBlock 3s linear ;
       margin: auto;
       /* list-style-type: none; */
       list-style-type: inherit;
-      margin-bottom: 60px;
+      /* margin-bottom: 60px; */
     }
     .gridly_item {
       width: 100%;
@@ -1445,6 +1602,11 @@ animation: showBlock 3s linear ;
 
     .gridly_item_count {
         margin-right: 31px;
+        margin-top: 50%;
+    }
+    .gridly_item_count_2 {
+        margin-right: 31px;
+        margin-top: 112%;
     }
 
     .gridly_item_count_1{
@@ -1458,13 +1620,15 @@ animation: showBlock 3s linear ;
         padding: 10px 61px 10px 22px;
         margin-bottom: 0;
         position: relative;
+        background-color: white;
+        min-height: 65px;
     }
 
     .help{
         position: fixed;
         right: 3%;
         bottom: 46%;
-        animation: rotation 20s infinite linear;
+        /* animation: rotation 20s infinite linear; */
         z-index: 1;
         cursor: pointer;
         }
@@ -1518,10 +1682,12 @@ animation: showBlock 3s linear ;
         text-align: center;
         transition: .3s;
         cursor: pointer;
+        font-weight: 600;
     }
     .btn_quiz_main{
         width: 198px;
         padding: 18px 0;
+        font-weight: 600;
     }
 
     .btn_white:hover{
@@ -1532,6 +1698,7 @@ animation: showBlock 3s linear ;
     .btn_quiz_drag_disabled {
         border: 3px solid #798CBB;
         color: #798CBB;
+        font-weight: 600;
     }
 
     .btn_quiz_drag{
@@ -1545,6 +1712,8 @@ animation: showBlock 3s linear ;
         transition: .3s;
         cursor: pointer;
         margin-bottom: 48px;
+        margin-top: 60px;
+        font-weight: 600;
     }
     .btn_quiz_drag:hover{
         border: 3px solid #00164C;
@@ -1793,7 +1962,10 @@ cursor: pointer;
 .client {
     z-index: 2;
 }
-
+.quiz_main_p {
+    line-height: 40px;
+    font-size: 24px;
+}
 
 /* ///////////////////////////////////// */
 .blue_wave{
@@ -1918,6 +2090,7 @@ stroke: white;
 }
 .quiz_main_header {
     font-size: 34px;
+    line-height: 43.28px;
 }
 
 .quiz_wave {
@@ -1925,7 +2098,13 @@ stroke: white;
     top: 0;
     left: 32%;
 }
-
+.pink_border{
+    height: 2px; width: 100%; background-color: #9214A7; border-radius: 4px;
+    margin-top: 20px;
+}
+.color_dark_blue {
+    color: #00164C;
+}
 
 /* /////////////////////////////////////////////// */
 
@@ -1935,8 +2114,6 @@ margin: 0 auto;
 }
 
 .pink_line {
-    padding-bottom: 20px;
-    border-bottom: 4px solid #9214A7;
     margin-bottom: 43px;
 }
 

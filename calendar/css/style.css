@@ -8519,7 +8519,7 @@ h1, h2, h3, h4, h5,
 
   @media screen and (max-width: 990px) {
     .calendar {
-      bottom: -258px!important;
+      bottom: -278px!important;
       top: auto!important;
       left: 0!important;
     }
@@ -8532,5 +8532,11 @@ h1, h2, h3, h4, h5,
   }
   .header [data-action*="prev"] {
     left: 11%!important;
+}
+.table .row .cell.active {
+  width: 16%!important;
+}
+.table .row .cell.active span {
+  margin-top: 2px;
 }
   }
