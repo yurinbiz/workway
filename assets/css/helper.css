@@ -142,10 +142,10 @@
 
   html body .fs-24 {
     font-size: 1.5rem;
-    line-height: 1.8375rem; }
+    line-height: 40px; }
     html body .fs-24 h1, html body .fs-24 h2, html body .fs-24 h3, html body .fs-24 h4, html body .fs-24 h5, html body .fs-24 div, html body .fs-24 span, html body .fs-24 p, html body .fs-24 button, html body .fs-24 input, html body .fs-24 a {
       font-size: 1.5rem;
-      line-height: 1.8375rem; }
+      line-height: 40px; }
   html body .fs-26 {
     font-size: 1.625rem;
     line-height: 2rem; }
@@ -154,16 +154,16 @@
       line-height: 2rem; }
     html body .fs-28 {
         font-size: 1.625rem;
-        line-height: 2.625rem; }
+        line-height: 34px; }
       html body .fs-28 h1, html body .fs-28 h2, html body .fs-28 h3, html body .fs-28 h4, html body .fs-28 h5, html body .fs-28 div, html body .fs-28 span, html body .fs-28 p, html body .fs-28 button, html body .fs-28 input, html body .fs-28 a {
           font-size: 1.625rem;
-          line-height: 2.625rem; }
+          line-height: 34px; }
   html body .fs-30 {
     font-size: 1.875rem;
-    line-height: 2.3125rem; }
+    line-height: 38px; }
     html body .fs-30 h1, html body .fs-30 h2, html body .fs-30 h3, html body .fs-30 h4, html body .fs-30 h5, html body .fs-30 div, html body .fs-30 span, html body .fs-30 p, html body .fs-30 button, html body .fs-30 input, html body .fs-30 a {
       font-size: 1.875rem;
-      line-height: 2.3125rem; }
+      line-height: 38px; }
   html body .fs-32 {
     font-size: 2rem;
     line-height: 2.4375rem; }
@@ -184,10 +184,10 @@
       line-height: 3.0625rem; }
   html body .fs-48 {
     font-size: 3rem;
-    line-height: 3.625rem; }
+    line-height: 48px; }
     html body .fs-48 h1, html body .fs-48 h2, html body .fs-48 h3, html body .fs-48 h4, html body .fs-48 h5, html body .fs-48 div, html body .fs-48 span, html body .fs-48 p, html body .fs-48 button, html body .fs-48 input, html body .fs-48 a {
       font-size: 3rem;
-      line-height: 3.625rem; }
+      line-height: 48px; }
   html body .fs-56 {
     font-size: 3.5rem;
     line-height: 4.2875rem; }

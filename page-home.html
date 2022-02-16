@@ -51,6 +51,7 @@
 
 
 <main>
+    <div class="progress-bar" id="progressBar"></div>
 
     <div class="container p-0">
 
@@ -91,142 +92,192 @@
         <div class="container pl-5 pr-5">
 
         <div class="advandages">
-            <ul class="advandages_list d-flex justify-content-between">
-                <li class="advandages_item advandages_item_border">
-                    <!-- <img src="" alt="">
-                    <img src="" alt=""> -->
-                    <svg class="advandages_item_cloud" width="284" height="219" viewBox="0 0 284 219" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M228.449 65.9686C228.371 65.9686 228.296 65.9802 228.219 65.9808C225.867 29.3865 196.275 0.429688 160.019 0.429688C139.197 0.429688 120.582 10.0055 108.031 25.062C104.192 24.2608 100.221 23.8368 96.1509 23.8368C68.8949 23.8368 45.9921 42.7296 39.0513 68.4319C16.6475 75.469 0.349609 96.8485 0.349609 122.145C0.349609 153.17 24.8591 178.322 55.0937 178.322H228.449C258.683 178.322 283.193 153.17 283.193 122.145C283.193 91.1189 258.683 65.9686 228.449 65.9686Z" fill="#F1F3FA"/>
-                        <path d="M21.4489 193.213C16.8311 183.881 17.6006 164.537 21.4489 160.405L40.2089 174.987C37.3228 180.819 35.1581 189.089 35.1581 193.213C35.1581 197.588 35.1582 209.982 37.3228 218.001C33.9556 212.169 26.0668 202.545 21.4489 193.213Z" fill="#F1F3FA"/>
-                    </svg>
-                    <img class="advandages_item_img" src="./assets/images/item_img.svg" alt="картинка">
-                    <div class="fs-24 fw-700 advandages_item_text">Поможем <span class="color_pink">осознанно</span> выбрать подходящую тебе профессию</div>
-                </li>
-                <li class="advandages_item">
-                    <!-- <img src="" alt="">
-                    <img src="" alt=""> -->
-                    <svg class="advandages_item_cloud" width="284" height="219" viewBox="0 0 284 219" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M228.449 65.9686C228.371 65.9686 228.296 65.9802 228.219 65.9808C225.867 29.3865 196.275 0.429688 160.019 0.429688C139.197 0.429688 120.582 10.0055 108.031 25.062C104.192 24.2608 100.221 23.8368 96.1509 23.8368C68.8949 23.8368 45.9921 42.7296 39.0513 68.4319C16.6475 75.469 0.349609 96.8485 0.349609 122.145C0.349609 153.17 24.8591 178.322 55.0937 178.322H228.449C258.683 178.322 283.193 153.17 283.193 122.145C283.193 91.1189 258.683 65.9686 228.449 65.9686Z" fill="#F1F3FA"/>
-                        <path d="M21.4489 193.213C16.8311 183.881 17.6006 164.537 21.4489 160.405L40.2089 174.987C37.3228 180.819 35.1581 189.089 35.1581 193.213C35.1581 197.588 35.1582 209.982 37.3228 218.001C33.9556 212.169 26.0668 202.545 21.4489 193.213Z" fill="#F1F3FA"/>
-                    </svg>
-                    <img class="advandages_item_img advandages_item_img_top" src="./assets/images/compass.svg" alt="компас">
-                    <div class="fs-24 fw-700 advandages_item_text">Поможем <span class="color_pink">осознанно</span> выбрать подходящую тебе профессию</div>
-                </li>
-                <li class="advandages_item advandages_item_border">
-                    <!-- <img src="" alt="">
-                    <img src="" alt=""> -->
-                    <svg class="advandages_item_cloud" width="284" height="219" viewBox="0 0 284 219" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M228.449 65.9686C228.371 65.9686 228.296 65.9802 228.219 65.9808C225.867 29.3865 196.275 0.429688 160.019 0.429688C139.197 0.429688 120.582 10.0055 108.031 25.062C104.192 24.2608 100.221 23.8368 96.1509 23.8368C68.8949 23.8368 45.9921 42.7296 39.0513 68.4319C16.6475 75.469 0.349609 96.8485 0.349609 122.145C0.349609 153.17 24.8591 178.322 55.0937 178.322H228.449C258.683 178.322 283.193 153.17 283.193 122.145C283.193 91.1189 258.683 65.9686 228.449 65.9686Z" fill="#F1F3FA"/>
-                        <path d="M21.4489 193.213C16.8311 183.881 17.6006 164.537 21.4489 160.405L40.2089 174.987C37.3228 180.819 35.1581 189.089 35.1581 193.213C35.1581 197.588 35.1582 209.982 37.3228 218.001C33.9556 212.169 26.0668 202.545 21.4489 193.213Z" fill="#F1F3FA"/>
-                    </svg>
-                    <img class="advandages_item_img advandages_item_img_top" src="./assets/images/ribbon.svg" alt="картинка">
-                    <div class="fs-24 fw-700 advandages_item_text">Поможем <span class="color_pink">осознанно</span> выбрать подходящую тебе профессию</div>
-                </li>
-            </ul>
-        </div>
+            <div class="d-flex justify-content-center w-100"><div class="fw-700 color_blue_whiter">О ПРОЕКТЕ</div></div>
+            <div class="d-flex justify-content-center w-100"><div class="Days_One advandages_header">ЧЕМ МЫ МОЖЕМ ВАМ ПОМОЧЬ</div></div>
 
-    </div>
+            <div class="advandages_list d-flex justify-content-between">
 
-
-
-    <div class="container">
-
-        <div class="step d-flex justify-content-between">
-            <div class="col-7 pr-5">
-
-                    <div class="d-flex align-items-center steps_header">
-                        <h2 class="fs-36 color_blue Days_One z-1">О ПРОЕКТЕ</h2>
-                        <img class="steps_count" src="./assets/images/step_1.svg" alt="01">
+                <div class="advandages_ball_container">
+                    <img class="advandages_woman" src="./assets/images/home_woman.svg" alt="картинка">
+                    <div class="advandages_ball">
+                        <div class="advandages_ball_text">
+                            <div class="fs-36 color_gold Days_One mb-2">ДЛЯ ЭТОГО</div>
+                            <div class="color_white fw-700 fs-24">команда WorkWay разработала онлайн-платформу для профориентации</div>
+                        </div>
                     </div>
-
-                    <div class="fs-24" style="margin-bottom: 30px;">Каждый день мы принимаем десятки, а то и сотни мелких решений. Большая часть из них не сильно меняют нас. 
-                        Но есть такие, которые задают вектор развития на годы вперед.
-                    </div>
-                    <div class="fs-24 text_grey_container" style="margin-bottom: 30px;">
-                        Выбор профессии — одно из самых важных решений, которое человеку нужно принять в юном возрасте.
-                    </div>
-                    <div class="fs-24" style="margin-bottom: 30px;">
-                        Чтобы сделать это осознанно, необходимо определить свои интересы, разобраться в том, что важно в работе именно для тебя, оценить свои возможности и сильные стороны, узнать о трендах на рынке труда. 
-Чтобы помочь  с этим, команда WorkWay онлайн-платформу для профориентации.
-                    </div>
-            </div>
-
-            <div class="pl-4 col-5"><div class="w-100 steps_img"></div>
-        </div>
-
-    </div>
-
-
-    <div class="step d-flex justify-content-between">
-
-        <div class="pr-4 col-5"><div class="w-100 steps_img"></div></div>
-
-        <div class="col-7 pl-5">
-
-                <div class="d-flex align-items-center steps_header">
-                    <h2 class="fs-36 color_blue_white step_2_header Days_One z-1">КАК ПРОХОДИТ
-                        ИССЛЕДВАНИЕ</h2>
-                    <img class="steps_count" src="./assets/images/step_2.svg" alt="01">
                 </div>
 
-                <div class="fs-24" style="margin-bottom: 30px;">Мы разработали тестирование на основе профориентационной методики доктора педагогических наук и профессора МГУ Пряжникова Николая Сергеевича.
-                    Тебе это подойдёт, если что-то здесь про тебя:<br>
-                    • Не могу выбрать профессию и не знаю, куда поступать<br>
-                    • Не понимаю, по каким критериям выбирать профессию и как определиться <br>
-                    • Не знаю, чего хочу от своей работы и не выходит разобраться в себе<br>
-                    • Не могу определиться с выбором между несколькими профессиями<br>
-                    • Хочу сменить профессию, но не понимаю, куда двигаться                    
+                <div class="advandages_mission_container d-flex align-items-center">
+                    <img class="advandages_img" src="./assets/images/mission_img.svg" alt="картинка">
+                    <div class="advandages_mission">
+                        <div class="advandages_mission_text">
+                            <div class="fs-30 Days_One mb-2">НАША МИССИЯ</div>
+                            <div class="fs-24">направить на поиск «своего дела»</div>
+                        </div>
+                    </div>
                 </div>
-                
+
+
+            </div>
         </div>
 
-</div>
 
-<div class="step d-flex justify-content-between">
-    <div class="col-7 pr-5">
+        <div class="our_suggestions d-flex justify-content-between">
+            <div class="our_suggestions_text col-7">
+                <div class="fw-700 fs-24 color_blue_whiter mb-4">ДЛЯ ВАС</div>
+                <div class="Days_One mt-2  mb-4 our_suggestions_header">ЧТО МЫ ПРЕДЛАГАЕМ</div>
+                <div class="mt-2 fs-24">Тестирование на основе профориентационной методики доктора педагогических наук и профессора МГУ Пряжникова Николая Сергеевича.</div>
 
-            <div class="d-flex align-items-center steps_header">
-                <h2 class="fs-36 Days_One z-1">НАША КОМАНДА</h2>
-                <img class="steps_count" src="./assets/images/step_3.svg" alt="01">
+                <div class="our_suggestions_result_container">
+                    <div class="fs-28 fw-700 mb-40">ПО ИТОГАМ ТЕСТА ТЫ ПОЛУЧИШЬ</div>
+                    <div class="d-flex align-items-center mb-4">
+                        <img src="./assets/images/galka_result.svg" alt="картинка" class="mr-32">
+                        <div class="fs-24">Список из наиболее подходящих профессий, 
+                            важных лично для тебя характеристик профессии.
+                            </div>
+                    </div>
+                    <div class="d-flex align-items-center mt-2">
+                        <img src="./assets/images/galka_result.svg" alt="картинка" class="mr-32">
+                        <div  class="fs-24">Возможность проконсультироваться с психологами, чтобы обсудить результаты тестирования и задать интересующие вопросы.
+                            </div>
+                    </div>
+                </div>
             </div>
+            <div class="d-flex align-self-end" style="width: 35%"><img src="./assets/images/our_suggestion_img.svg" class="our_suggestions_text w-100" alt="картинка"></div>
 
-            <div class="fs-24" style="margin-bottom: 30px;">Мы разработали тестирование на основе профориентационной методики доктора педагогических наук и профессора МГУ Пряжникова Николая Сергеевича.
-                Тебе это подойдёт, если что-то здесь про тебя:<br>
-                • Не могу выбрать профессию и не знаю, куда поступать<br>
-                • Не понимаю, по каким критериям выбирать профессию и как определиться <br>
-                • Не знаю, чего хочу от своей работы и не выходит разобраться в себе<br>
-                • Не могу определиться с выбором между несколькими профессиями<br>
-                • Хочу сменить профессию, но не понимаю, куда двигаться                    
-            </div>
+
 
     </div>
-
-    <div class="pl-4 col-5"><div class="w-100 steps_img"></div>
 </div>
+   
 
-</div>
 
 
-    </div>
+<div class="our_team d-flex justify-content-between">
 
-    
-    <div class="step_4">
-        <svg class="wave_top" width="w-100" height="245" viewBox="0 0 1920 245" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M842.561 24.4297C510.242 11.1472 0 148.43 0 148.43V244.43L1920 220.43V0.429688C1920 0.429688 1529.68 90.8333 1276.34 83.4297C1105.45 78.4357 1013.38 31.2573 842.561 24.4297Z" fill="#F1F3FA"/>
-        </svg>
-            
-        <div class="container step_4_container">
-            <div class="d-flex align-items-center" style="z-index: 2; margin-bottom: 561px;">
-                <h2 class="fs-36 Days_One z-1">РЕЗУЛЬТАТ</h2>
-                <img class="steps_count" src="./assets/images/step_3.svg" alt="01">
+    <div class="balls_container d-flex">
+
+      
+        <div class="ball_team_494">
+            <div style="margin-left: 75px;">
+                <div class="fs-18 Days_One fs-40" style="color: #FFFFFF80;">более</div>
+                <div class="d-flex"><span class="Days_One mr-2 color_white ball_team_494_header">500</span><span class="Days_One align-self-end color_white ball_team_494_header_time">ч</span></div>
+                <div class="fs-40 color_white Days_One">психотерапии</div>
             </div>
 
-            <img class="girl_img" src="./assets/images/girl.svg" alt="картинка">
+            <svg style="position: absolute; top: -10%; left: -10%;" width="600" height="601" viewBox="0 0 600 601" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="300" cy="300.778" r="299.5" stroke="#183989" stroke-opacity="0.1"/>
+            </svg>
+        
+            <svg style="position: absolute; top: -36%; left: -36%;" width="868" height="869" viewBox="0 0 868 869" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="434" cy="434.778" r="433.5" stroke="#183989" stroke-opacity="0.1"/>
+            </svg>
+
+            <div class="ball_team ball_team_274">
+                <div style="margin-left: 47px;">
+                    <div class="fs-18 color_blue_whiter Days_One">более</div>
+                    <div class="d-flex"><span class="fs-48 Days_One color_blue mr-2">250</span><span class="fs-30 Days_One align-self-end color_blue">ч</span></div>
+                    <div class="fs-18 color_blue Days_One">карьерного консультирования</div>
+                </div>
+            </div>
+
+            <div class="ball_team ball_team_274_2">
+                <div style="margin-left: 47px;">
+                    <div class="fs-18 color_blue_whiter Days_One">более</div>
+                    <div class="d-flex"><span class="fs-48 Days_One color_blue mr-2">250</span><span class="fs-30 Days_One align-self-end color_blue">ч</span></div>
+                    <div class="fs-18 color_blue Days_One">карьерного консультирования</div>
+                </div>
+            </div>
+
+
+            <img src="./assets/images/Girl_team.svg" alt="картинка" class="girl_team">
+
 
         </div>
-            
+
+
     </div>
 
+    <div class="col-6 pl-0">
+        <div class="our_suggestions_text col-10">
+                <div class="fw-700 fs-24 color_blue_whiter mb-4">О НАС</div>
+                <div class="Days_One mt-2  mb-4 our_suggestions_header">НАША КОМАНДА</div>
+                <div class="mt-2 fs-24">Основатели проекта – это не только специалисты в области психологии и карьерного консультирования, но и люди, которые когда-то столкнулись ровно с той же проблемой, что и ты сейчас.</div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+
+
+<div id="horizontal">
+    <svg class="wave_top" width="w-100" height="245" viewBox="0 0 1920 245" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M842.561 24.4297C510.242 11.1472 0 148.43 0 148.43V244.43L1920 220.43V0.429688C1920 0.429688 1529.68 90.8333 1276.34 83.4297C1105.45 78.4357 1013.38 31.2573 842.561 24.4297Z" fill="#F1F3FA"/>
+    </svg>
+    <div class="d-flex">
+    <div class="card_1">
+        <div class="card_1_text">
+            <div class="d-flex">
+                <div class="Days_One fs-36 color_gold" style="margin-bottom: 74px;">ОНЛАЙН - ТЕСТИРОВАНИЕ</div>
+                <div class="Days_One" style="font-size: 144px; line-height: 183px; transform: translate(-59px, -49px); z-index: 0; color: #FFFFFF1A">01</div>
+            </div>
+            <div class="Days_One fs-32 color_white">исследует профессиональные интересы и приоритеты 
+            </div>
+        </div>
+    </div>
+    <div class="card_2">
+        <div class="card_2_text">
+            <div class="d-flex">
+                <div class="Days_One fs-36" style="margin-bottom: 74px; z-index: 1;">ОНЛАЙН -КОНСУЛЬТАЦИИ</div>
+                <div class="Days_One" style="font-size: 144px; line-height: 183px; transform: translate(-59px, -49px); z-index: 0; color: #F1F3FA">02</div>
+            </div>
+            <div class="fs-24">проводят молодые специалисты с факультета психологии МГУ
+            </div>
+        </div>
+    </div>
+    <div class="card_3">
+        <div class="card_3_text">
+            <div class="d-flex">
+                <div class="Days_One fs-36" style="margin-bottom: 74px; z-index: 1;">ЭЛЕКТРОННЫЙ
+                    ОТЧЕТ
+                    </div>
+                <div class="Days_One" style="font-size: 144px; line-height: 183px; transform: translate(-59px, -49px); z-index: 0; color: #F1F3FA">03</div>
+            </div>
+            <div class="fs-24">проводс рекомендациями и списком наиболее подходящих профессий
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+            
+
+   
+<div class="step_4">
+
+    <svg class="wave_top" width="w-100" height="245" viewBox="0 0 1920 245" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M842.561 24.4297C510.242 11.1472 0 148.43 0 148.43V244.43L1920 220.43V0.429688C1920 0.429688 1529.68 90.8333 1276.34 83.4297C1105.45 78.4357 1013.38 31.2573 842.561 24.4297Z" fill="#F1F3FA"/>
+    </svg>
+        
+
+        <div class="step_4_container">
+            <!-- <div class="container pl-5 pr-5">
+                            <h2 class="step_4_container_header Days_One z-1">ОБ ИССЛЕДОВАНИИ</h2>
+                        </div> -->
+
+        
+
+        </div>
+
+
+
+        
+</div>
     <svg class="wave_bottom" width="w-100" height="245" viewBox="0 0 1920 245" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M467 176.43C282.271 165.862 0 96.4297 0 96.4297V0.429688L1920 24.4297V244.43C1920 244.43 1471.42 107.35 1175 96.4297C896.938 86.1863 744.797 192.321 467 176.43Z" fill="#F1F3FA"/>
     </svg>
@@ -355,41 +406,70 @@
 </div>
 
 
+<div style="overflow: hidden;">
 <div class="container rings">
 
 
 
-        <svg class="rings_cool" width="118" height="53" viewBox="0 0 118 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0 15.4297C0 7.14542 6.71573 0.429688 15 0.429688H103C111.284 0.429688 118 7.14542 118 15.4297V24.4297C118 32.714 111.284 39.4297 103 39.4297H0V15.4297Z" fill="#9214A7"/>
-            <path d="M0 52.4297V35.4297H13L0 52.4297Z" fill="#9214A7"/>
-            <path d="M35.3 20.6517H32.42V26.4297H31.124V13.8297H32.42V19.4817H35.3L39.566 13.8297H41.006L36.326 19.9497L41.276 26.4297H39.746L35.3 20.6517ZM48.1589 16.8897C49.0469 16.8897 49.8509 17.0937 50.5709 17.5017C51.2909 17.8977 51.8549 18.4617 52.2629 19.1937C52.6709 19.9257 52.8749 20.7597 52.8749 21.6957C52.8749 22.6437 52.6709 23.4837 52.2629 24.2157C51.8549 24.9477 51.2909 25.5177 50.5709 25.9257C49.8629 26.3217 49.0589 26.5197 48.1589 26.5197C47.3909 26.5197 46.6949 26.3637 46.0709 26.0517C45.4589 25.7277 44.9549 25.2597 44.5589 24.6477V29.9217H43.2809V16.9617H44.5049V18.8337C44.8889 18.2097 45.3929 17.7297 46.0169 17.3937C46.6529 17.0577 47.3669 16.8897 48.1589 16.8897ZM48.0689 25.3857C48.7289 25.3857 49.3289 25.2357 49.8689 24.9357C50.4089 24.6237 50.8289 24.1857 51.1289 23.6217C51.4409 23.0577 51.5969 22.4157 51.5969 21.6957C51.5969 20.9757 51.4409 20.3397 51.1289 19.7877C50.8289 19.2237 50.4089 18.7857 49.8689 18.4737C49.3289 18.1617 48.7289 18.0057 48.0689 18.0057C47.3969 18.0057 46.7909 18.1617 46.2509 18.4737C45.7229 18.7857 45.3029 19.2237 44.9909 19.7877C44.6909 20.3397 44.5409 20.9757 44.5409 21.6957C44.5409 22.4157 44.6909 23.0577 44.9909 23.6217C45.3029 24.1857 45.7229 24.6237 46.2509 24.9357C46.7909 25.2357 47.3969 25.3857 48.0689 25.3857ZM63.4031 16.9617L58.6691 27.5637C58.2851 28.4517 57.8411 29.0817 57.3371 29.4537C56.8331 29.8257 56.2271 30.0117 55.5191 30.0117C55.0631 30.0117 54.6371 29.9397 54.2411 29.7957C53.8451 29.6517 53.5031 29.4357 53.2151 29.1477L53.8091 28.1937C54.2891 28.6737 54.8651 28.9137 55.5371 28.9137C55.9691 28.9137 56.3351 28.7937 56.6351 28.5537C56.9471 28.3137 57.2351 27.9057 57.4991 27.3297L57.9131 26.4117L53.6831 16.9617H55.0151L58.5791 25.0077L62.1431 16.9617H63.4031ZM72.0893 18.0957H68.5073V26.4297H67.2293V18.0957H63.6473V16.9617H72.0893V18.0957ZM77.4037 26.5197C76.4917 26.5197 75.6697 26.3157 74.9377 25.9077C74.2057 25.4877 73.6297 24.9117 73.2097 24.1797C72.7897 23.4477 72.5797 22.6197 72.5797 21.6957C72.5797 20.7717 72.7897 19.9437 73.2097 19.2117C73.6297 18.4797 74.2057 17.9097 74.9377 17.5017C75.6697 17.0937 76.4917 16.8897 77.4037 16.8897C78.3157 16.8897 79.1377 17.0937 79.8697 17.5017C80.6017 17.9097 81.1717 18.4797 81.5797 19.2117C81.9997 19.9437 82.2097 20.7717 82.2097 21.6957C82.2097 22.6197 81.9997 23.4477 81.5797 24.1797C81.1717 24.9117 80.6017 25.4877 79.8697 25.9077C79.1377 26.3157 78.3157 26.5197 77.4037 26.5197ZM77.4037 25.3857C78.0757 25.3857 78.6757 25.2357 79.2037 24.9357C79.7437 24.6237 80.1637 24.1857 80.4637 23.6217C80.7637 23.0577 80.9137 22.4157 80.9137 21.6957C80.9137 20.9757 80.7637 20.3337 80.4637 19.7697C80.1637 19.2057 79.7437 18.7737 79.2037 18.4737C78.6757 18.1617 78.0757 18.0057 77.4037 18.0057C76.7317 18.0057 76.1257 18.1617 75.5857 18.4737C75.0577 18.7737 74.6377 19.2057 74.3257 19.7697C74.0257 20.3337 73.8757 20.9757 73.8757 21.6957C73.8757 22.4157 74.0257 23.0577 74.3257 23.6217C74.6377 24.1857 75.0577 24.6237 75.5857 24.9357C76.1257 25.2357 76.7317 25.3857 77.4037 25.3857ZM84.707 13.8297H86.219L85.949 22.6497H84.959L84.707 13.8297ZM85.463 26.5197C85.199 26.5197 84.971 26.4297 84.779 26.2497C84.599 26.0577 84.509 25.8357 84.509 25.5837C84.509 25.3197 84.599 25.1037 84.779 24.9357C84.959 24.7557 85.187 24.6657 85.463 24.6657C85.727 24.6657 85.949 24.7557 86.129 24.9357C86.309 25.1037 86.399 25.3197 86.399 25.5837C86.399 25.8357 86.309 26.0577 86.129 26.2497C85.949 26.4297 85.727 26.5197 85.463 26.5197Z" fill="white"/>
-        </svg>
-
+     
     <div class="fs-36 rings_header Days_One">ЧТО ГОВОРЯТ?</div>
 
+    
 
-    <div class="client_container">
+    <div class="client_container" style="position: relative;">
         <img class="align-self-center client" src="./assets/images/Client.svg" alt="Клиент">
         <div class="client_container_text align-self-center">
             <div class="fs-28 client_container_p">Мы разработали платформу с интерактивными тестированиями и системой рекомендаций. Технология одобрена Зотовым Ильем Викторовичем</div>
             <div class="fs-18 fw-500 mb-2">АННА ДОРИНА</div>
             <div class="color_blue_white fs-18">школьница, 15 лет</div>
         </div>
+    
     </div>
 
 
-    <svg class="rings_img" width="100%" height="1376" viewBox="0 0 1375 1376" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div class="rings_img">
+        <svg width="100%" height="1376" viewBox="0 0 1375 1376" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M1197.5 687.93C1197.5 969.042 969.166 1196.93 687.5 1196.93C405.834 1196.93 177.5 969.042 177.5 687.93C177.5 406.818 405.834 178.93 687.5 178.93C969.166 178.93 1197.5 406.818 1197.5 687.93Z" stroke="#00257D" stroke-opacity="0.14"/>
         <circle cx="687.5" cy="687.93" r="687" stroke="#00257D" stroke-opacity="0.14"/>
-        <circle cx="279" cy="133.43" r="45" fill="#D2CDD4"/>
-        <circle cx="240" cy="429.43" r="39" fill="#798CBB"/>
-        <circle cx="688" cy="178.43" r="39" fill="#D8DEEB"/>
-        <circle cx="1086" cy="361.43" r="39" fill="#A8B5D3"/>
-        <circle cx="1011.5" cy="88.9297" r="50.5" fill="#A8B5D3"/>
-    </svg>
+        </svg>
+
+
+        <div class="rings_ball" id='rings_ball_1'>
+            <img src="./assets/images/Group 42775.svg" alt="">
+          
+            <img class="cool cool_1" src="./assets/images/Hover-2.svg" alt="">
+        </div>
+
+        <div class="rings_ball rings_ball_2" id='rings_ball_2'>
+            <img src="./assets/images/Group 42771.svg" alt="">
+            
+            <img class="cool cool_2"  src="./assets/images/Hover.svg" alt="">
+        </div>
+
+        <div class="rings_ball rings_ball_3" id='rings_ball_3'>
+            <img src="./assets/images/Group 42778.svg" alt="">
+           
+            <img class="cool cool_3" src="./assets/images/Hover-3.svg" alt="">
+        </div>
+
+        <div class="rings_ball rings_ball_4" id='rings_ball_4'>
+            <img src="./assets/images/Group 42772.svg" alt="">
+            <img class="cool cool_4" src="./assets/images/Hover-4.svg" alt="">
+        </div>
+
+        <div class="rings_ball rings_ball_5" id='rings_ball_5'>
+            <img src="./assets/images/Group.svg" alt="">
+           
+            <img class="cool cool_5" src="./assets/images/Hover-5.svg" alt="">
+        </div>
+
+    </div>
+
+    
 
     
         
+</div>
 </div>
 
 <div class="connection_container">
@@ -513,8 +593,62 @@
 <script src="./assets/js/drag-and-drop.js"></script>
 
 
- <!-- Bootstrap JS -->
+<script>
+    function progressBar() {
+    // Узнаем на сколько страница прокручена
+    let scroll = document.body.scrollTop || document.documentElement.scrollTop;
+    // Узнаем высоту всей страницы
+    let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    // Получаем в % на сколько прокручена страница
+    let scrolled = scroll / height * 100;
 
+    // Подставляем % прокрутки в ширину нашей линии
+    document.getElementById('progressBar').style.width = scrolled + '%';
+}
+
+// Запускаем функцию, когда пользователя скролит
+window.addEventListener('scroll', progressBar);
+</script>
+
+<script>
+    var $hor = $("#horizontal");
+
+$("body").css('padding-bottom', $hor[0].scrollWidth - $hor.outerWidth());
+
+$(window).on('scroll', function () {
+  var top = $(document).scrollTop();
+  var lim = $hor.position().top - $hor[0].scrollLeft - ($(window).height() - $hor.outerHeight()) / 2;
+  var width = $hor[0].scrollWidth - $hor.outerWidth();
+  var delta = Math.min(Math.max(top - lim, 0), width);
+  
+  $hor[0].scrollLeft = delta;
+  $("body").css({'padding-top': delta, 'padding-bottom': width - delta});
+});
+</script>
+
+
+<script>
+    $('#rings_ball_1').hover(function(){
+        $('.cool_1').toggleClass('cool_active')
+    });
+
+    $('#rings_ball_2').hover(function(){
+        $('.cool_2').toggleClass('cool_active')
+    });
+
+    $('#rings_ball_3').hover(function(){
+        $('.cool_3').toggleClass('cool_active')
+    });
+
+    $('#rings_ball_4').hover(function(){
+        $('.cool_4').toggleClass('cool_active')
+    });
+
+    $('#rings_ball_5').hover(function(){
+        $('.cool_5').toggleClass('cool_active')
+    });
+    
+</script>
  
 </body>
 </html>

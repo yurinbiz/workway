@@ -117,6 +117,12 @@ font-size: 18px!important;
     .time_container {
         left: 39.7%!important;
     }
+    .client_container_text {
+        transform: translate(35px, -91px)!important;
+    }
+    .cool_2 {
+        transform: translate(24px, -150px);
+    }
     }
 
 @media screen and (max-width: 1440px) {
@@ -147,6 +153,10 @@ font-size: 18px!important;
 .modal_text_font {
     font-size: 18px!important;
     line-height: 30px!important;
+}
+
+.balls_container {
+    margin-bottom: 41%!important;
 }
 
 
@@ -836,6 +846,336 @@ body, * {
 html {
     scroll-behavior: smooth;
 }
+
+
+/*UPDATES /////////////////////////////////////// */
+.progress-bar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 5px; 
+    width: 0%;
+    background: #9214A7;
+    z-index: 1000;
+}
+.advandages_header{
+font-size: 52px;
+margin-bottom: 122px;
+}
+.advandages_list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 122px;
+    background-image: url('../images/home-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: 333px center;
+    position: relative;
+}
+.advandages{
+    margin-bottom: 260px;
+    margin-top: 240px;
+}
+.advandages_ball_container{
+    position: relative;
+}
+.advandages_ball{
+    background-color: #183989;
+    border-radius: 50%;
+    width: 530px;
+    height: 530px;
+    display: flex;
+    align-items: center;
+}
+.advandages_ball_text{
+    margin-left: 67px;
+    margin-right: 46px;
+}
+.advandages_woman {
+    position: absolute;
+    top: -30%;
+}
+.advandages_mission_container {
+    position: absolute;
+    left: 47%;
+    top: -29px;
+}
+.advandages_mission_text {
+    margin-left: 30px;
+    width: 70%;
+}
+
+.our_suggestions{
+    margin-bottom: 140px;
+}
+.color_blue_whiter {
+    color: #C0C9DF;
+}
+.our_suggestions_header{
+    font-size: 52px;
+    line-height: 66px;
+}
+.our_suggestions_result_container {
+    margin-top: 100px;
+    margin-bottom: 182px;
+}
+.our_team {
+    margin-top: 300px;
+}
+.balls_container{
+    position: relative;
+    margin-bottom: 31%;
+}
+.ball_team{
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ball_team_274 {
+    top: -44%;
+    left: 107%;
+    width: 274px;
+    height: 274px;
+    background-color: #F1F3FA;
+}
+.ball_team_274_2 {
+    top: 105%;
+    left: 89%;
+    width: 274px;
+    height: 274px;
+    background-color: #F1F3FA;
+}
+
+.ball_team_494 {
+    margin-left: 0px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 494px;
+    height: 494px;
+    background-color: #183989;
+    position: relative;
+    transform: translate(-22px);
+}
+.ball_team_494_header {
+    font-size: 96px;
+    line-height: 122px;
+}
+.ball_team_494_header_time {
+    font-size: 64px;
+    line-height: 81px;
+    margin-bottom: 12px;
+}
+.girl_team {
+    position: absolute;
+    top: 135%;
+    left: 42%;
+    z-index: -1;
+}
+.step_4{
+    position: relative;
+    background: #F1F3FA;
+    z-index: -1;
+}
+.step_4_container_header {
+    font-size: 52px;
+    line-height: 66px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.scroll_cards_container {
+    overflow: hidden;
+    overflow-x: scroll;
+    padding: 0;
+    white-space:nowrap;
+    list-style-type: none;
+}
+
+.scroll_card {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+/* .card_1 {
+    display: inline-block;
+    width: 32%;
+    white-space: normal;
+    margin-left: 315px;
+    margin-top: 101px;
+  }
+
+  .card_1_text{
+    display: inline-block;
+    width: 576px;
+    height: 100%;
+    background-color: #183989;
+    border-radius: 25px;
+    padding: 50px 46px 50px 46px;
+
+}
+.card_2 {
+    display: inline-block;
+    width: 18%;
+    height: 30%;
+    white-space: normal;
+    margin-top: 101px;
+  }
+.card_2_text{
+    display: inline-block;
+    width: 576px;
+    height: 100%;
+    background-color: black;
+    border-radius: 25px;
+    padding: 50px 46px 50px 46px;
+    } */
+
+
+    #horizontal {
+        white-space: nowrap;
+        overflow: hidden;
+        margin: 0;
+        background-color: #F1F3FA;
+
+      }
+      #horizontal > div > .card_1 {
+        display: inline-block;
+        white-space: normal;
+        margin-left: 315px;
+        margin-top: 101px;
+        margin-right: 54px;
+      }
+      #horizontal > div > .card_2 {
+        display: inline-block;
+        white-space: normal;
+        margin-top: 101px;
+        margin-right: 54px;
+      }
+      #horizontal > div > .card_3 {
+        display: inline-block;
+        height: 474px;
+        white-space: normal;
+        margin-top: 101px;
+        margin-right: 54px;
+
+      }
+
+      .card_2_text{
+        display: inline-block;
+        width: 576px;
+        height: 450px;
+        background-color: #FFFFFF;
+        border-radius: 25px;
+        padding: 50px 46px 50px 46px;
+        }
+
+        .card_3_text{
+            display: inline-block;
+            width: 576px;
+            height: 450px;
+            border-radius: 25px;
+            background-color: #FFFFFF;
+            padding: 50px 46px 50px 46px;
+            }
+
+        .card_1_text{
+            display: inline-block;
+            width: 576px;
+            height: 450px;
+            background-color: #183989;
+            border-radius: 25px;
+            padding: 50px 46px 50px 46px;  
+        }
+
+        .rings_ball{
+            width: 78px;
+            height: 78px;
+            background-color: #F1F3FA;
+            position: absolute;
+            top: 10%;
+            left: 47%;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .rings_ball_2{
+            top: 3%;
+            left: 71%;
+            width: 118px;
+            height: 118px;
+        }
+
+        .rings_ball_3{
+            top: 24%;
+            left: 76%;
+        }
+
+        .rings_ball_4{
+            top: 6%;
+            left: 19%;
+        }
+
+        .rings_ball_5{
+            top: 29%;
+            left: 15%;
+        }
+
+        .cool{
+            transform: translate(81px, -113px);
+            visibility: hidden;
+            opacity: 1;
+            transition: .3s;
+        }
+
+        .cool_1{
+            transform: translate(-36%, -129px);
+        }
+        .cool_2 {
+            transform: translate(108px, -149px);
+        }
+        .cool_3 {
+            transform: translate(81px, -124px);
+        }
+        .cool_4 {
+            transform: translate(-101%, -164px);
+        }
+        .cool_5 {
+            transform: translate(-98%, -154px);
+        }
+        .cool_active{
+            visibility: visible;
+            opacity: 1;
+        }
+/*UPDATES /////////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .input_container{
     position: relative; margin-right: 60px;
 }
@@ -1726,14 +2066,7 @@ animation: showBlock 3s linear ;
     
 
 /* advandages///////////////////////////////////////////////// */
-.advandages{
-    margin-bottom: 187px;
-}
-.advandages_list{
-    list-style-type: none;
-    padding: 0;
-    margin-top: 198px;
-}
+
 .advandages_item{
     position: relative;
     width: 369px;
@@ -1791,15 +2124,10 @@ margin-right: 80px;
 .step_2_header {
         width: 339px;
     }
-.step_4{
-    position: relative;
-    background: #F1F3FA;
 
-}
 .step_4_container{
 display: flex;
 flex-direction: column;
-align-items: center;
 }
 .wave_top {
     transform: translate(0, -151px);
@@ -1814,7 +2142,7 @@ align-items: center;
 }
 
 .wave_bottom{
-    transform: translate(0px, -57px);
+    transform: translate(0px, -5px);
 }
 
 
@@ -1926,7 +2254,7 @@ cursor: pointer;
 .rings_img{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 4.5%;
 }
 
 .rings_cool {
@@ -1948,7 +2276,7 @@ cursor: pointer;
 .client_container_text{
     background: #F1F3FA;
     border-radius: 15px;
-    width: 80%;
+    width: 92%;
     padding: 133px 222px 68px 222px;
     z-index: 1;
     text-align: center;
