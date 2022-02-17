@@ -122,7 +122,7 @@ font-size: 18px!important;
         left: 39.7%!important;
     }
     .client_container_text {
-        transform: translate(35px, -91px)!important;
+        transform: translate(2px, -91px)!important;
     }
     .cool_2 {
         transform: translate(24px, -150px);
@@ -169,7 +169,15 @@ font-size: 18px!important;
 .balls_container {
     margin-bottom: 41%!important;
 }
-
+.cool_2 {
+    transform: translate(-3px, -149px)!important;
+}
+.cool_3 {
+    transform: translate(19px, -132px)!important;
+}
+.cool_5 {
+    transform: translate(-76%, -154px)!important;
+}
 
 }
 
@@ -840,11 +848,11 @@ list-style-type: none;
         margin-top: 40px!important;
         margin-right: 0!important;
         padding: 34px!important;
-        background-image: url('../images/Group 42912.svg');
-        background-position: right 23px bottom;
-        background-repeat: no-repeat;
+        background-image: url('../images/Group 42912.svg')!important;
+        background-position: right 23px bottom!important;
+        background-repeat: no-repeat!important;
         background-color: white!important;
-        box-shadow: 5px 10px 50px rgba(146, 162, 199, 0.3);
+        box-shadow: 5px 10px 50px rgba(146, 162, 199, 0.3)!important;
         margin-top: 0!important;
     }
     .card_2_text{
@@ -853,10 +861,10 @@ list-style-type: none;
         margin-top: 40px!important;
         margin-right: 0!important;
         padding: 34px!important;
-        background-image: url('../images/Frame 5114.svg');
-        background-position: right 23px bottom;
-        background-repeat: no-repeat;
-        box-shadow: 5px 10px 50px rgba(146, 162, 199, 0.3);
+        background-image: url('../images/Frame 5114.svg')!important;
+        background-position: right 23px bottom!important;
+        background-repeat: no-repeat!important;
+        box-shadow: 5px 10px 50px rgba(146, 162, 199, 0.3)!important;
     }
     .card_3_text{
         max-width: 342px!important;
@@ -1399,6 +1407,9 @@ margin-top: 18px;
         background-color: #FFFFFF;
         border-radius: 25px;
         padding: 50px 46px 50px 46px;
+        background-image: url('../images/Frame 5113a.svg');
+        background-position: right 65px bottom;
+        background-repeat: no-repeat;
         }
 
         .card_3_text{
@@ -1408,6 +1419,9 @@ margin-top: 18px;
             border-radius: 25px;
             background-color: #FFFFFF;
             padding: 50px 46px 50px 46px;
+            background-image: url('../images/Frame 5114s.svg');
+            background-position: right 65px bottom;
+            background-repeat: no-repeat;
             }
 
         .card_1_text{
@@ -1417,6 +1431,9 @@ margin-top: 18px;
             background-color: #183989;
             border-radius: 25px;
             padding: 50px 46px 50px 46px;  
+            background-image: url('../images/Frame 5109.svg');
+            background-position: right 65px bottom;
+            background-repeat: no-repeat;
         }
 
         .rings_ball{
@@ -2461,7 +2478,7 @@ display: flex;
 flex-direction: column;
 }
 .wave_top {
-    transform: translate(0, -151px);
+    transform: translate(0, -232px);
     position: absolute;
 }
 .girl_img {
@@ -2485,7 +2502,6 @@ flex-direction: column;
     position: absolute; bottom: 79%
 }
 .tarifs {
-    margin-top: 219px;
     text-align: center;
     /* padding-left: 105px;
     padding-right: 105px; */
@@ -2598,7 +2614,7 @@ margin-right: 110px;
 .rings_img{
     position: absolute;
     top: 0;
-    left: 4.5%;
+    left: 1.7%;
 }
 
 .rings_cool {
@@ -2624,7 +2640,7 @@ margin-right: 110px;
     padding: 133px 222px 68px 222px;
     z-index: 1;
     text-align: center;
-    transform: translate(0px, -91px);
+    transform: translate(-44px, -91px);
 }
 
 .client_container_p {
