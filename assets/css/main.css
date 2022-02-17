@@ -135,7 +135,9 @@ font-size: 18px!important;
 
 
 @media screen and (max-width: 1440px) {
-
+    .our_suggestions_text_1{
+        transform: translate(19%, 0px);
+    }
 
 .main_img{
     transform: translate(0)!important;
@@ -177,6 +179,9 @@ font-size: 18px!important;
     .light_main {
         display: none;
     } 
+    .our_suggestions_text_1{
+transform: none!important;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -1151,6 +1156,7 @@ html {
 
 
 /*UPDATES /////////////////////////////////////// */
+
 .light_main {
     position: absolute;
     top: 3%;
