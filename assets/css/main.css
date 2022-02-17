@@ -123,6 +123,9 @@ font-size: 18px!important;
     .cool_2 {
         transform: translate(24px, -150px);
     }
+    .wave_bottom{
+        transform: translate(0px, -49px)!important;
+    }
     }
 
 @media screen and (max-width: 1440px) {
@@ -180,6 +183,9 @@ font-size: 18px!important;
         font-size: 16px!important;
         line-height: 27px!important;
     }
+    .balls_container {
+        margin-bottom: 63%!important;
+    }
 }
 
 
@@ -210,6 +216,31 @@ font-size: 18px!important;
     .text_1 {
         width: 30%!important;
     }
+    .main_text_container{
+        margin-bottom: 15px!important;
+        margin-top: 95px!important;
+    }
+    .main_p {
+        margin-bottom: 30px!important;
+        width: 100%!important;
+    }
+    .btn_white-main-mobile{
+        width: 192px!important;
+    }
+    .advandages {
+        margin-bottom: 120px!important;
+        margin-top: 100px!important;
+    }
+    .advandages_header {
+        font-size: 24px!important;
+        margin-bottom: 30px!important;
+        margin-top: 15px;
+    }
+    .advandages_list {
+        background-image: none!important;
+        margin-top: 172px!important;
+    }
+   
 }
 @media screen and (max-width: 990px) {
     .header_logo {
@@ -425,6 +456,83 @@ font-size: 18px!important;
     .text_1 {
         width: 40%!important;
     }
+    .advandages_ball {
+        width: 284px!important;
+        height: 284px!important;
+    }
+    .advandages_woman {
+        top: -48%!important;
+    }
+    .advandages_ball_text {
+        margin-left: 54px!important;
+        margin-right: 50px!important;
+    }
+    .our_suggestions_header {
+        font-size: 24px!important;
+        line-height: 30px!important;
+    }
+    .our_suggestions_result_container {
+        margin-top: 40px!important;
+        margin-bottom: 60px!important;
+    }
+    .our_suggestions {
+        margin-bottom: 120px!important;
+        flex-direction: column!important;
+    }
+    .galka_result_mobile {
+        width: 34px!important;
+        height: 34px!important;
+    }
+
+    .ball_team_494 {
+        width: 214px!important;
+        height: 214px!important;    
+    }
+
+    .balls_container {
+        margin-top: 117px!important;
+    }
+    .ball_team_494_left {
+        margin-left: 42px!important;
+    }
+    .ball_team_494_header {
+        font-size: 40px!important;
+        line-height: 40px!important;
+    }
+    .ball_team_494_header_time {
+        font-size: 24px!important;
+        line-height: 30px!important;
+        margin-bottom: 0!important;
+    }
+
+    .ball_team_274 {
+        top: -44%;
+        left: 107%;
+        width: 132px!important;
+        height: 132px!important;
+        background-color: #F1F3FA;
+    }
+
+    .ball_team_274_left {
+        margin-left: 24px!important;
+    }
+    .time_margin{
+        margin-bottom: 10px;
+    }
+
+    .ball_team_274_2 {
+        left: 120%!important;
+        width: 124px!important;
+        height: 124px!important;
+    }
+    .girl_team{
+        width: 175px!important;
+        height: 192px!important;
+        left: 55%!important;
+    }
+    .our_team{
+        margin-top: 120px!important;
+    }
 }
 
 
@@ -631,6 +739,46 @@ list-style-type: none;
         font-size: 18px!important;
         line-height: 30px!important;
     }
+    .card_1_text{
+        max-width: 342px!important;
+        min-height: 294px!important;
+        margin-top: 40px!important;
+        margin-right: 0!important;
+        padding: 34px!important;
+        background-image: url('../images/Group 42912.svg');
+        background-position: right 23px bottom;
+        background-repeat: no-repeat;
+        background-color: white!important;
+        box-shadow: 5px 10px 50px rgba(146, 162, 199, 0.3);
+        margin-top: 0!important;
+    }
+    .card_2_text{
+        max-width: 342px!important;
+        min-height: 294px!important;
+        margin-top: 40px!important;
+        margin-right: 0!important;
+        padding: 34px!important;
+        background-image: url('../images/Frame 5114.svg');
+        background-position: right 23px bottom;
+        background-repeat: no-repeat;
+        box-shadow: 5px 10px 50px rgba(146, 162, 199, 0.3);
+    }
+    .card_3_text{
+        max-width: 342px!important;
+        min-height: 294px!important;
+        margin-top: 40px!important;
+        margin-right: 0!important;
+        padding: 34px!important;
+        background-image: url('../images/Frame 5115.svg');
+        background-position: right 23px bottom;
+        background-repeat: no-repeat;
+        box-shadow: 5px 10px 50px rgba(146, 162, 199, 0.3);
+    }
+    .card_count{
+        font-size: 80px!important; 
+        line-height: 101px!important; 
+        transform: translate(-30px, -28px)!important;
+    }
 }
 
 
@@ -646,6 +794,9 @@ list-style-type: none;
 }
 
 @media screen and (max-width: 660px) {
+    .our_suggestions_img {
+        width: 100%!important;
+    }
     .header_logo {
         margin-right: 90px!important;
         width: 86px!important;
@@ -667,7 +818,7 @@ list-style-type: none;
         top: 0!important;
         width: 92%!important;
         background-color: white!important;
-        z-index: 1;
+        z-index: 2;
     }
     
     .accordion-main .accordion-item .collapsed svg rect {
@@ -796,7 +947,7 @@ list-style-type: none;
         margin-left: 16px!important;
     }
     .btn_white {
-        font-size: 18px!important;
+        /* font-size: 18px!important; */
         padding: 16px 0!important;
     }
     .gridly_item_count {
@@ -825,6 +976,12 @@ list-style-type: none;
     .requisites_list_mobile_height{
 line-height: 19px!important;
     }
+    .balls_container {
+        margin-bottom: 81%!important;
+    }
+    .wave_top {
+        transform: translate(0, -137px)!important;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -849,6 +1006,12 @@ html {
 
 
 /*UPDATES /////////////////////////////////////// */
+.ball_team_274_left {
+    margin-left: 47px;
+}
+.our_suggestions_img {
+    width: 35%;
+}
 .progress-bar {
     position: fixed;
     left: 0;
@@ -1072,8 +1235,8 @@ margin-bottom: 122px;
 
       .card_2_text{
         display: inline-block;
-        width: 576px;
-        height: 450px;
+        max-width: 576px;
+        min-height: 450px;
         background-color: #FFFFFF;
         border-radius: 25px;
         padding: 50px 46px 50px 46px;
@@ -1081,8 +1244,8 @@ margin-bottom: 122px;
 
         .card_3_text{
             display: inline-block;
-            width: 576px;
-            height: 450px;
+            max-width: 576px;
+            min-height: 450px;
             border-radius: 25px;
             background-color: #FFFFFF;
             padding: 50px 46px 50px 46px;
@@ -1090,8 +1253,8 @@ margin-bottom: 122px;
 
         .card_1_text{
             display: inline-block;
-            width: 576px;
-            height: 450px;
+            max-width: 576px;
+            min-height: 450px;
             background-color: #183989;
             border-radius: 25px;
             padding: 50px 46px 50px 46px;  
@@ -1155,6 +1318,12 @@ margin-bottom: 122px;
         .cool_active{
             visibility: visible;
             opacity: 1;
+        }
+        .ball_team_494_left {
+            margin-left: 75px;
+        }
+        .card_count{
+            font-size: 144px; line-height: 183px; transform: translate(-59px, -49px); z-index: 0; color: #F1F3FA
         }
 /*UPDATES /////////////////////////////////////// */
 
@@ -2142,7 +2311,7 @@ flex-direction: column;
 }
 
 .wave_bottom{
-    transform: translate(0px, -5px);
+    transform: translate(0px, -30px);
 }
 
 

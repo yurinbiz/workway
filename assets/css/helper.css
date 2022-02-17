@@ -84,6 +84,13 @@
   
   /*####################*/  
   /*Шрифты*/
+  html body .fs-9 {
+    font-size: 0.5625rem;
+    line-height: 11px; }
+    html body .fs-9 h1, html body .fs-9 h2, html body .fs-9 h3, html body .fs-9 h4, html body .fs-9 h5, html body .fs-9 div, html body .fs-9 span, html body .fs-9 p, html body .fs-9 button, html body .fs-9 input, html body .fs-9 a {
+      font-size: 0.5625rem;
+      line-height: 11px; }
+
   html body .fs-10 {
     font-size: 0.625rem;
     line-height: 0.675rem; }
@@ -298,6 +305,12 @@
       html body .fs-md-24 h1, html body .fs-md-24 h2, html body .fs-md-24 h3, html body .fs-md-24 h4, html body .fs-md-24 h5, html body .fs-md-24 div, html body .fs-md-24 span, html body .fs-md-24 p, html body .fs-md-24 button, html body .fs-md-24 input, html body .fs-md-24 a {
         font-size: 1.5rem !important;
         line-height: 36px !important; }
+        html body .fs-lg-24 {
+          font-size: 1.5rem !important;
+          line-height: 36px !important; }
+          html body .fs-lg-24 h1, html body .fs-lg-24 h2, html body .fs-lg-24 h3, html body .fs-lg-24 h4, html body .fs-lg-24 h5, html body .fs-lg-24 div, html body .fs-lg-24 span, html body .fs-lg-24 p, html body .fs-lg-24 button, html body .fs-lg-24 input, html body .fs-lg-24 a {
+            font-size: 1.5rem !important;
+            line-height: 36px !important; }
     html body .fs-md-26 {
       font-size: 1.625rem !important;
       line-height: 2rem !important; }
@@ -322,12 +335,24 @@
       html body .fs-md-32 h1, html body .fs-md-32 h2, html body .fs-md-32 h3, html body .fs-md-32 h4, html body .fs-md-32 h5, html body .fs-md-32 div, html body .fs-md-32 span, html body .fs-md-32 p, html body .fs-md-32 button, html body .fs-md-32 input, html body .fs-md-32 a {
         font-size: 2rem !important;
         line-height: 2.4375rem !important; }
+        html body .fs-lg-36 {
+          font-size: 2.25rem !important;
+          line-height: 28px; }
+          html body .fs-lg-36 h1, html body .fs-lg-36 h2, html body .fs-lg-36 h3, html body .fs-lg-36 h4, html body .fs-lg-36 h5, html body .fs-lg-36 div, html body .fs-lg-36 span, html body .fs-lg-36 p, html body .fs-lg-36 button, html body .fs-lg-36 input, html body .fs-lg-36 a {
+            font-size: 2.25rem !important;
+            line-height: 28px !important; }
     html body .fs-md-40 {
       font-size: 2.5rem !important;
       line-height: 3.0625rem !important; }
       html body .fs-md-40 h1, html body .fs-md-40 h2, html body .fs-md-40 h3, html body .fs-md-40 h4, html body .fs-md-40 h5, html body .fs-md-40 div, html body .fs-md-40 span, html body .fs-md-40 p, html body .fs-md-40 button, html body .fs-md-40 input, html body .fs-md-40 a {
         font-size: 2.5rem !important;
         line-height: 3.0625rem !important; }
+        html body .fs-lg-40 {
+          font-size: 2.5rem !important;
+          line-height: 3.0625rem !important; }
+          html body .fs-lg-40 h1, html body .fs-lg-40 h2, html body .fs-lg-40 h3, html body .fs-lg-40 h4, html body .fs-lg-40 h5, html body .fs-lg-40 div, html body .fs-lg-40 span, html body .fs-lg-40 p, html body .fs-lg-40 button, html body .fs-lg-40 input, html body .fs-lg-40 a {
+            font-size: 2.5rem !important;
+            line-height: 3.0625rem !important; }
     html body .fs-md-48 {
       font-size: 3rem !important;
       line-height: 3.625rem !important; }
