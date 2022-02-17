@@ -2176,7 +2176,7 @@ animation: showBlock 3s linear ;
     padding: 87px 57px 57px 57px;
     background-color: white;
     border-radius: 30px;
-    min-width: 41%!important;
+    min-width: 57%!important;
 }
 .modal-content {
     border: none;
@@ -2201,9 +2201,9 @@ animation: showBlock 3s linear ;
 .input_my {
     border: 2px solid #F1F3FA;
     box-sizing: border-box;
-    border-radius: 35px;
+    border-radius: 56px;
     width: 100%;
-    padding: 24px;
+    padding: 18px 24px 18px 24px;
     outline: none;
     margin-bottom: 30px;
 }
