@@ -135,6 +135,9 @@ font-size: 18px!important;
 
 
 @media screen and (max-width: 1440px) {
+    .line {
+        display: block!important;
+    }
     .our_suggestions_text_1{
         transform: translate(19%, 0px);
     }
@@ -176,12 +179,16 @@ font-size: 18px!important;
     transform: translate(19px, -132px)!important;
 }
 .cool_5 {
-    transform: translate(-76%, -154px)!important;
+    transform: translate(-65%, -154px)!important;
 }
 
 }
 
 @media screen and (max-width: 1438px) {
+
+    .line{
+        display: none!important;
+    }
 
 
     .light_main {
@@ -640,6 +647,13 @@ transform: none!important;
 
 
 @media screen and (max-width: 768px) {
+    ul .connection_item:nth-child(2) {
+        order: -1;  /* у остальных flex-элементов order: 0; */
+      }
+    
+      ul .connection_item:nth-child(1) {
+        order: 1;  /* у остальных flex-элементов order: 0; */
+      }
     .second_quiz_wrap {
         justify-content: center!important;
     }
@@ -1572,6 +1586,10 @@ a:hover{
 .color_gold:hover{
     color: #FFAA00;
 }
+.line{
+    display: none;
+}
+
 
 /* //////////////////////////////////////////////// */
 .tarif_base{
@@ -2496,7 +2514,6 @@ flex-direction: column;
 
 
 
-
 /*tarifs ///////////////////////////// */
 .star_tarif{
     position: absolute; bottom: 79%
@@ -2510,10 +2527,10 @@ flex-direction: column;
 }
 .question{
 position: absolute;
-top: 60%;
+top: 66%;
 right: 42px;
 /* animation: rotation 20s infinite linear; */
-z-index: 1;
+z-index: 2;
 cursor: pointer;
 }
 /* .question_spin {
