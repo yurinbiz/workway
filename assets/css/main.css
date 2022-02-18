@@ -989,6 +989,10 @@ list-style-type: none;
         .accordion-main .accordion-item .collapsed svg {
             height: 12px;
         }
+        .accordion-item svg {
+            height: 12px;
+
+        }
 .burger{
     margin-right: 16px;
 }
@@ -1934,8 +1938,18 @@ height: 4px;
     border: none;
 }
 .list-group {
-    position: fixed; top: 36%; height: fit-content;
+    position: fixed; 
+    top: 36%; height: fit-content;
     overflow-y: scroll; width: 21%;
+    transition: .3s;
+    opacity: 0;
+}
+.fixed {
+    position: fixed;
+    top: 36%; height: fit-content;
+    overflow-y: scroll; width: 21%;
+    transition: .3s;
+    opacity: 1;
 }
 .scroll_text {
     width: 72%;
