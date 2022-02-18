@@ -135,6 +135,9 @@ font-size: 18px!important;
 
 
 @media screen and (max-width: 1440px) {
+    .help_second {
+        right: 1.2%!important;
+    }
     .line {
         display: block!important;
     }
@@ -983,7 +986,9 @@ list-style-type: none;
             z-index: 2;
             transform: translate(-14px, 0px);
         }
-
+        .accordion-main .accordion-item .collapsed svg {
+            height: 12px;
+        }
 .burger{
     margin-right: 16px;
 }
@@ -1169,8 +1174,6 @@ body, * {
     font-style: normal!important;
     /* font-weight: normal!important; */
     color: #00164C;
-    transition: .9s;
-
 }
 html {
     scroll-behavior: smooth;
@@ -2312,7 +2315,7 @@ animation: showBlock 3s linear ;
     }
     .gridly_item_count_2 {
         margin-right: 31px;
-        margin-top: 112%;
+        margin-top: 75%;
     }
 
     .gridly_item_count_1{
@@ -2329,6 +2332,13 @@ animation: showBlock 3s linear ;
         background-color: white;
         min-height: 65px;
     }
+    .quiz_drag_item:hover {
+        border: 2px solid #9214A7;
+        background-image: url('../images/Group 5258.svg');
+        background-repeat: no-repeat;
+        background-position: right 12px center;
+        }
+      
 
     .help{
         position: fixed;
@@ -2350,9 +2360,10 @@ animation: showBlock 3s linear ;
     .header{
         display: flex;
         list-style-type: none;
-        margin: 55px 0 95px 0;
+        margin: 55px 0 80px 0;
         padding: 0;
     }
+  
     .header_logo {
         margin-right: 301px;
     }
@@ -2360,12 +2371,24 @@ animation: showBlock 3s linear ;
         margin-right: 45px;
         transition: .3s;
         cursor: pointer;
+        z-index: 2;
+        margin-bottom: 15px;
+        transition: none!important;
+        border-bottom: 2px solid transparent;
     }
+    .header_item:hover {
+      border-bottom: 2px solid #183989;
+    }
+   
+    .header_item_hover:hover{
+        color: #183989!important;
+    }
+   
+
     .header_item:last-child {
         margin-right: 0;
     }
     .header_item:hover {
-        font-weight: bold!important;
         transition: .3s;
     }
 
@@ -2805,7 +2828,7 @@ stroke: white;
 }
 .pink_border{
     height: 2px; width: 100%; background-color: #9214A7; border-radius: 4px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .color_dark_blue {
     color: #00164C;
@@ -2860,7 +2883,7 @@ padding: 0 10%;
 }
 
 .help_second {
-    right: 4%!important;
+    right: 4%;
     top: 66%;
 }
 
