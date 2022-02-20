@@ -8549,3 +8549,13 @@ h1, h2, h3, h4, h5,
 }
   }
 
+  @media screen and (max-width: 600px) {
+
+  .calendar {
+    width: 99.2%!important;
+}
+.table .row .cell.active {
+  width: 19%!important;
+  padding-bottom: 7px!important;
+}
+  }

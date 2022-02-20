@@ -1241,7 +1241,7 @@ margin-top: -114px!important;
 .burger{
     margin-right: 16px;
 }
-    
+ 
     .accordion-main .accordion-item .collapsed svg rect {
         /* transform: rotate( 
     0deg) translate(0px, 14px)!important; */
@@ -1278,6 +1278,13 @@ margin-top: -114px!important;
 }
 
 @media screen and (max-width: 450px) {
+    .mobile_dad{
+    margin-top: 110px
+    }
+    .pink_border{ 
+        margin-top: 0px!important;
+    }
+       
     .modal_help {
         margin: 32% 5%!important;
     }
