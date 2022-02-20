@@ -8191,7 +8191,7 @@ h1, h2, h3, h4, h5,
   cursor: default;
   position: absolute; 
   top: 0;
-  left: 4%;
+  left: 4.6%;
   opacity: 0;
   visibility: hidden;
   transition: .3s;
@@ -8322,6 +8322,7 @@ h1, h2, h3, h4, h5,
         width: 42px;
         height: 42px;
         color: white;
+        padding-top: 7px;
        }
        .table .row .cell.active span{
         color: #fff!important;
@@ -8519,7 +8520,8 @@ h1, h2, h3, h4, h5,
 
   @media screen and (max-width: 1440px) {
     .calendar {
-      left: 6%!important;
+      left: 9%!important;
+      width: 31.2%!important;
     }
   }
 
