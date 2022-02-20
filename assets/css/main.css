@@ -41,6 +41,10 @@
     .container {
     max-width: 1520px!important;
     }
+    /* .FAQ_container{
+        max-width: 1100px!important;
+        margin: auto;
+    } */
 }
 
 
@@ -250,6 +254,10 @@ transform: none!important;
 }
 
 @media screen and (max-width: 1280px) {
+    .FAQ_container{
+        max-width: 964px!important;
+        margin: auto;
+    }
     .header_logo_quiz {
         width: 86px!important;
     }
@@ -328,6 +336,13 @@ transform: none!important;
         margin-top: 172px!important;
     }
    
+}
+
+@media screen and (max-width: 1050px) {
+.FAQ_container{
+    max-width: 668px!important;
+    margin: auto;
+}
 }
 @media screen and (max-width: 990px) {
     .header_logo {
@@ -691,6 +706,7 @@ transform: none!important;
 
 
 @media screen and (max-width: 768px) {
+   
     ul .connection_item:nth-child(2) {
         order: -1;  /* у остальных flex-элементов order: 0; */
       }
@@ -849,7 +865,7 @@ list-style-type: none;
     }
     .faq_header{
        margin-bottom: 40px!important;
-       margin-top: 20%!important;
+       margin-top: 24%!important;
        font-size: 24px!important;
     }
     .accordion-main-faq {
@@ -990,6 +1006,11 @@ list-style-type: none;
     .link_btn{
         transform: none!important;
     }
+    .search_FAQ_mobile{
+padding: 14px 46px!important;
+background-position: 2.5% 17px!important;
+    background-size: 3%!important;
+    }
 }
 
 
@@ -1005,6 +1026,18 @@ list-style-type: none;
 }
 
 @media screen and (max-width: 660px) {
+    .faq_header{
+        text-align: start!important;
+        margin-top: 30px;
+    }
+    .search_FAQ_mobile {
+        padding: 14px 46px!important;
+        background-position: 5.5% 15px!important;
+        background-size: 7%!important;
+    }
+    .FAQ_container{
+        max-width: 343px!important;
+    }
     .connection_margin_result{
 margin-top: -114px!important;
     }
@@ -1039,13 +1072,13 @@ margin-top: -114px!important;
             z-index: 2;
             transform: translate(-14px, 0px);
         }
-        .accordion-main .accordion-item .collapsed svg {
-            /* height: 12px; */
+        .accordion-main .accordion-item-FAQ .collapsed svg {
+            height: 12px;
         }
-        .accordion-item svg {
-            /* height: 12px; */
-
+        .accordion-item-FAQ svg {
+            height: 12px;
         }
+       
 .burger{
     margin-right: 16px;
 }
@@ -1925,7 +1958,10 @@ margin-top: 80px;
    visibility: hidden;
    display: none;
 }
-
+.FAQ_container{
+    max-width: 1100px;
+    margin: auto;
+}
 .time_container_before {
     width: 14%;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
@@ -2022,7 +2058,7 @@ width: 22px;
 height: 4px;
 }
 .faq_header{
-    align: center; margin-bottom: 80px;
+    text-align: center; margin-bottom: 80px;
 }
 /* ///////////////////////////// */
 .formula_header {
