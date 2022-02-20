@@ -495,9 +495,7 @@ transform: none!important;
         height: 115px!important;
         margin-right: 18px!important;
     }
-    .result_progress_item{
-        justify-content: space-between!important;
-    }
+    
     .result_progress_item:nth-child(n-1) {
         padding-right: 0!important;
     }
@@ -1114,7 +1112,7 @@ list-style-type: none;
     }
     .dont_forget{
         transform: none!important;
-        width: 94%!important;
+        width: 102%!important;
     }
     .link_btn{
         transform: none!important;
@@ -1139,6 +1137,34 @@ background-position: 2.5% 17px!important;
 }
 
 @media screen and (max-width: 660px) {
+    .header_mobile_quiz{
+transform: none!important;
+    }
+    .container_second_quiz {
+        margin-top: 36%!important;
+    }
+    .header_logo_quiz {
+        margin-bottom: 43px!important;
+        margin-top: 12px!important;
+    }
+    .result_text {
+        margin-bottom: 35px!important;
+    }
+    .result_circle_svg{
+        top: 25%!important;
+    }
+    .result_circду_svg_client{
+top: 10%!important;
+    }
+    .dont_forget{
+margin-bottom: 20px!important;
+    }
+    .result_circle {
+        background-size: 100%!important;
+        background-repeat: no-repeat!important;
+        padding: 140px 42px 0px 42px!important;
+        background-position: 0 47px!important;
+    }
     .connection_header{
         font-size: 24px!important;
         line-height: 31px!important;
@@ -1290,7 +1316,7 @@ margin-top: -114px!important;
     }
     .header_logo_quiz_help{
         display: block!important;
-        margin-top: 49px!important;
+        margin-top: 12px!important;
     }
     .text_1 {
         width: 80%!important;
@@ -1337,7 +1363,7 @@ margin-top: -114px!important;
         margin-top: 15%!important;
     }
     .second_quiz_wrap {
-        margin-top: 38%!important;
+        margin-top: 41%!important;
     }
     .header_logo_quiz_main {
         margin-bottom: 40px!important;
@@ -1354,10 +1380,10 @@ margin-top: -114px!important;
     }
     .gridly_item_count {
         margin-right: 15px!important;
-        margin-top: 77px!important;
+        margin-top: 69px!important;
     }
     .gridly_item_count_2 {
-        margin-top: 129%!important;
+        margin-top: 128%!important;
     }
     .btn_quiz_drag{
         margin: 0!important;
@@ -1387,12 +1413,8 @@ line-height: 19px!important;
 }
 
 @media screen and (max-width: 400px) {
-    .gridly_item_count {
-        margin-top: 187px!important;
-    }
-    .gridly_item_count_2 {
-        margin-top: 178%!important;
-    }
+    
+
 }
 
 
