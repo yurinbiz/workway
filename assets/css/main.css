@@ -116,10 +116,10 @@ font-size: 18px!important;
         margin-bottom: 48px!important;
     }
     .time_container_before {
-        left: 59.1%!important;
+        left: 59.6%!important;
     }
     .time_container {
-        left: 39.7%!important;
+        left: 40%!important;
     }
     .client_container_text {
         transform: translate(2px, -91px)!important;
@@ -135,6 +135,46 @@ font-size: 18px!important;
 
 
 @media screen and (max-width: 1440px) {
+    .dont_forget {
+       width: 123%;
+       transform: translate(-53px, 0);
+    }
+    .link_btn_result_1440{
+        transform: translate(-53px, 0);
+    }
+    .skill_header {
+        font-size: 14px!important;
+    }
+    .skill_text {
+        font-size: 21px!important;
+    }
+    .col-3_5{
+        -ms-flex: 0 0 26.6%!important;
+        flex: 0 0 26.6%!important;
+        /* max-width: 26.7%; */
+        position: relative;
+        /* width: 100%; */
+        width: 26.6%!important;
+    }
+    .col-4_5{
+        -ms-flex: 0 0 33.3%!important;
+        flex: 0 0 33.3%!important;
+        /* max-width: 26.7%; */
+        position: relative;
+        /* width: 100%; */
+        width: 33.3%!important;
+        padding-left: 16px!important;
+        padding-right: 16px!important;
+    }
+    .col-9_5{
+        webkit-box-flex: 0;
+        -ms-flex: 0 0 73.4%!important;
+        flex: 0 0 73.4%!important;
+        /* max-width: 26.7%; */
+        position: relative;
+        /* width: 100%; */
+        width: 73.4%!important;
+    }
     .help_second {
         right: 1.2%!important;
     }
@@ -449,6 +489,7 @@ transform: none!important;
     }
     .dont_forget {
         line-height: 22px!important;
+        font-size: 12px!important;
     }
     .check_form {
         margin-top: 80px!important;
@@ -720,7 +761,6 @@ list-style-type: none;
     .connection_des {
         width: 100%!important;
     }
-    
     .congratulations_header {
         margin-bottom: 15px!important;
         line-height: 30.55px!important;
@@ -737,9 +777,9 @@ list-style-type: none;
         border-radius: 15px!important;
         padding: 18px!important;
         margin-bottom: 50px!important;
-        min-height: 582px;
-        background-position: 0% 132%!important;
-        background-size: 105% 64%!important;
+        min-height: 546px;
+        background-position: 36% 130%!important;
+        background-size: 109% 72%!important;
     }
     .formula_list_item {
         padding: 17px!important;
@@ -938,7 +978,17 @@ list-style-type: none;
     }
     .tarifs_header {
         margin-bottom: 40px!important;
-
+    }
+    .formula_header {
+        font-size: 20px!important;
+        line-height: 45.83px!important;
+    }
+    .dont_forget{
+        transform: none!important;
+        width: 94%!important;
+    }
+    .link_btn{
+        transform: none!important;
     }
 }
 
@@ -955,6 +1005,9 @@ list-style-type: none;
 }
 
 @media screen and (max-width: 660px) {
+    .connection_margin_result{
+margin-top: -114px!important;
+    }
     .progress-bar {
         top: 59px!important;
     }
@@ -987,10 +1040,10 @@ list-style-type: none;
             transform: translate(-14px, 0px);
         }
         .accordion-main .accordion-item .collapsed svg {
-            height: 12px;
+            /* height: 12px; */
         }
         .accordion-item svg {
-            height: 12px;
+            /* height: 12px; */
 
         }
 .burger{
@@ -1846,6 +1899,7 @@ margin-top: 80px;
     border-bottom: 2px solid #F1F3FA;
 }
 
+
 .time_container {
     width: 14%;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
@@ -1908,10 +1962,51 @@ margin-top: 80px;
  margin-right: 29px;
 }
 
+.formula_card{
+    width: 356px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.col-3_5{
+    webkit-box-flex: 0;
+    -ms-flex: 0 0 25.6%;
+    flex: 0 0 25.6%;
+    /* max-width: 26.7%; */
+    position: relative;
+    /* width: 100%; */
+    width: 25.6%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.col-4_5{
+    webkit-box-flex: 0;
+    -ms-flex: 0 0 33.3%;
+    flex: 0 0 33.3%;
+    /* max-width: 26.7%; */
+    position: relative;
+    /* width: 100%; */
+    width: 33.3%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-9_5{
+    webkit-box-flex: 0;
+    -ms-flex: 0 0 74.4%;
+    flex: 0 0 74.4%;
+    /* max-width: 26.7%; */
+    position: relative;
+    /* width: 100%; */
+    width: 74.4%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 /*ANIMATION ///////////////////////////// */
 .accordion-main .accordion-item .collapsed svg {
     transform: rotate(
-0deg)!important;
+0deg) translate(0px, -2px)!important;
 }
 .accordion-item svg{
     transform: rotate(
@@ -1930,7 +2025,10 @@ height: 4px;
     align: center; margin-bottom: 80px;
 }
 /* ///////////////////////////// */
-
+.formula_header {
+    font-size: 36px;
+    line-height: 45.83px;
+}
 
 /* scroll spy////////////////////////////// */
 .list-group-item {
@@ -2040,7 +2138,8 @@ height: 4px;
     margin-bottom: 100px;
 }
 .dont_forget {
-    line-height: 50px;
+    line-height: 42px;
+    font-size: 24px;
 }
 .result_circle {
     width: 68%;
@@ -2051,7 +2150,7 @@ height: 4px;
     position: relative;
 }
 .link_btn {
-    padding: 21px;
+    padding: 19px 40px;
     background: #FFFFFF;
     border: 3px solid #FFFFFF;
     border-radius: 50px;
@@ -2157,9 +2256,9 @@ padding: 78px 148px 0px 116px;
     border-radius: 15px;
     padding: 52px;
     background-color: #183989;
-    background-image: url('../images/result_woman_img.png');
-    background-position: 95% 14px;
-    background-size: 35% 113%;
+    background-image: url('../images/Frame\ 5105.svg');
+    background-position: 96% -106px;
+    background-size: 41% 145%;
     background-repeat: no-repeat;
     margin-bottom: 80px;
 }

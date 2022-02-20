@@ -8517,6 +8517,12 @@ h1, h2, h3, h4, h5,
   background-color: #546E7A; }
 
 
+  @media screen and (max-width: 1440px) {
+    .calendar {
+      left: 6%!important;
+    }
+  }
+
   @media screen and (max-width: 990px) {
     .calendar {
       bottom: -278px!important;
@@ -8540,3 +8546,4 @@ h1, h2, h3, h4, h5,
   margin-top: 2px;
 }
   }
+
