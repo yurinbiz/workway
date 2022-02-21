@@ -120,7 +120,7 @@ font-size: 18px!important;
         transform: translate(88px, 45px)!important;
     }
     .check_form_30 {
-        padding: 299px 24px 50px 24px!important;
+        padding: 399px 83px 50px 99px!important;
     }
     .card_item_margin {
         margin-bottom: 48px!important;
@@ -145,6 +145,16 @@ font-size: 18px!important;
 
 
 @media screen and (max-width: 1440px) {
+    .form{
+        max-width: 90%!important;
+    }
+    .tarif_step_1_2{
+        margin-left: 31%!important;
+    }
+    .tarif_step_1 {
+        margin-left: 26%!important;
+    }
+
     .connection_header{
         font-size: 36px!important;
         line-height: 45.8px!important;
@@ -648,7 +658,7 @@ transform: none!important;
         font-size: 20px!important;
     }
     .girl_tarif {
-        top: -138%!important;
+        top: -181%!important;
     }
     .text_1 {
         width: 40%!important;
@@ -1141,6 +1151,13 @@ background-position: 2.5% 17px!important;
 }
 
 @media screen and (max-width: 660px) {
+    .connection_margin_tarif_mobile {
+        margin-top: -100px!important;
+        }
+    .tarif_step_1_2{
+        margin-left: 0%!important;
+        justify-content: flex-start!important;
+    }
     .galka_text {
         line-height: 22px!important;
     }
@@ -1927,6 +1944,10 @@ a:hover{
     display: none;
 }
 
+.form{
+    max-width: 71%;
+    margin: 0 auto;
+}
 
 /* //////////////////////////////////////////////// */
 .tarif_base{
@@ -1959,22 +1980,24 @@ a:hover{
 .tarif_step_1 {
     margin-bottom: 64px;
     margin-top: 120px;
-    margin-left: 7%;
+    margin-left: 15%;
 }
 .check_form {
     border-radius: 25px;
-    margin-top: 237px;
+    margin-top: 180px;
+    margin-bottom: 180px;
 }
 .check_form_70 {
     width: 57%;
     background-color: #F1F3FA;
-    padding: 50px 90px 50px 90px;
+    padding: 50px 90px 50px 69px;
     border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 .check_form_30 {
     width: 43%;
     background-color: #183989;
-    padding: 299px 90px 50px 90px;
+    padding: 399px 90px 50px 90px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -2503,7 +2526,9 @@ height: 4px;
     border: 3px solid #F1F3FA;
     box-shadow: none;
 }
-
+.connection_tarif{
+    top: 0!important;
+}
 .skill_text {
     font-size: 22px;
     line-height: 32px;
@@ -2870,7 +2895,10 @@ animation: showBlock 3s linear ;
     .main_mause{
         /* transform: translate(-100px, 0);     */
     }
-    
+    .tarif_step_1_2{
+        margin-left: 9%;
+        justify-content: flex-end;
+    }
 
 /* advandages///////////////////////////////////////////////// */
 
