@@ -145,6 +145,24 @@ font-size: 18px!important;
 
 
 @media screen and (max-width: 1440px) {
+    .tarif_2_text_des{
+        width: 134%;
+    }
+    .tarif_2_step_1 {
+        margin-left: 8%!important;
+    }
+    .tarif_2_step_2 {
+        margin-left: 32%!important;
+    }
+     .tarif_2_step_2 {
+        margin-left: 32%!important;
+    }
+    .tarif_2_step_3 {
+        margin-left: 22%!important;
+    }
+    .tarif_circles_2{
+        top: 35%!important;
+    }
     .form{
         max-width: 90%!important;
     }
@@ -1151,6 +1169,36 @@ background-position: 2.5% 17px!important;
 }
 
 @media screen and (max-width: 660px) {
+    .tarif_2_text_des {
+        width: auto!important;
+    }
+    .tarif_2_step_1 {
+        margin-left: 0%!important;
+        margin-top: 60px!important;
+        margin-bottom: 0!important;
+    }
+    .tarif_2_step_2 {
+        margin-left: 0%!important;
+        margin-top: 40px!important;
+        margin-bottom: 0!important;
+    }
+     .tarif_2_step_2 {
+        margin-left: 0%!important;
+    }
+    .tarif_2_step_3 {
+        margin-top: 40px!important;
+        margin-left: 0%!important;
+    }
+
+    .btn_tarif_2_vectot{
+        transform: scale(0.8);
+    }
+    .btn_tarif_2 {
+        font-size: 14px!important;
+    }
+    .girl_tarif_2{
+transform: translate(0, 22px) scale(0.69)!important;
+    }
     .connection_margin_tarif_mobile {
         margin-top: -100px!important;
         }
@@ -1888,8 +1936,23 @@ margin-bottom: 57px!important;
     font-size: 24px;
     line-height: 30px;
 }
+.tarif_circles_2{
+    top: 30%!important;
+}
+.tarif_2_step{
+    margin-bottom: 64px;
+    margin-top: 120px;
+}
+.tarif_2_step_1{
+    margin-left: 8%;
+}
 
-
+.tarif_2_step_2{
+    margin-left: 8.7%;
+}
+.tarif_2_step_3{
+    margin-left: 12%;
+}
 
 
 .input_container{
