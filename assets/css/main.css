@@ -800,6 +800,9 @@ transform: none!important;
 
 
 @media screen and (max-width: 768px) {
+    .cards_container{
+        padding-left: 0px!important; padding-bottom: 0px!important; padding-top: 0px!important;
+    }
     .record_paragraph{
         font-size: 16px!important;
         line-height: 27px!important;
@@ -1985,7 +1988,9 @@ input[type=checkbox] {
   padding: 0;
   opacity: 0;
 }
-
+.cards_container{
+    padding-left: 300px; padding-bottom: 111px; padding-top: 181px;
+}
 .radio-label,
 .checkbox-label {
   padding-left: 53px;

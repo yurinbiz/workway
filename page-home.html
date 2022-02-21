@@ -337,11 +337,17 @@
 <div class="d-flex" style="background-color: #F1F3FA; overflow-x: hidden;">
     <div style="padding-left: 0;">
 
-    <svg class="wave_top" width="w-100" style="z-index: -1;" height="245" viewBox="0 0 1920 245" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class="d-md-block d-none wave_top" width="w-100" style="z-index: -1;" height="245" viewBox="0 0 100% 245" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M842.561 24.4297C510.242 11.1472 0 148.43 0 148.43V244.43L1920 220.43V0.429688C1920 0.429688 1529.68 90.8333 1276.34 83.4297C1105.45 78.4357 1013.38 31.2573 842.561 24.4297Z" fill="#F1F3FA"/>
     </svg>
 
-<div style="padding-left: 300px; padding-bottom: 111px; padding-top: 181px;">
+    <!-- <svg class="d-md-none d-block wave_top" width="w-100" height="191" viewBox="0 0 375 191" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M155.856 2.69123C89.7383 -10.613 0 29.7356 0 29.7356V191L382 166.961V2.69118C382 2.69118 309.145 30.4536 258.741 23.0378C224.742 18.0356 189.843 9.53003 155.856 2.69123Z" fill="#F1F3FA"/>
+    </svg> -->
+
+
+
+<div class="cards_container" style="padding-left: 300px; padding-bottom: 111px; padding-top: 181px;">
     <div class="Days_One d-md-block d-none" style="font-size: 52px; background-color: #F1F3FA;">ОБ ИССЛЕДОВАНИИ</div>
 
     <div class="d-md-flex d-none" style="padding-top: 100px;">
@@ -389,9 +395,9 @@
    
 <div class="d-md-none d-block">
 
-    <svg class="d-md-block d-none wave_top" width="w-100" height="245" viewBox="0 0 1920 245" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- <svg class="d-md-block d-none wave_top" width="w-100" height="245" viewBox="0 0 1920 245" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M842.561 24.4297C510.242 11.1472 0 148.43 0 148.43V244.43L1920 220.43V0.429688C1920 0.429688 1529.68 90.8333 1276.34 83.4297C1105.45 78.4357 1013.38 31.2573 842.561 24.4297Z" fill="#F1F3FA"/>
-    </svg>
+    </svg> -->
 
     <img  class="d-md-none d-block w-100" style="position: absolute; transform: translate(0, -77px); z-index: -1;" src="./assets/images/Vector 665.svg" alt="">
         
@@ -879,10 +885,9 @@ $(window).on('scroll', function () {
         $('.cool_4').removeClass('cool_active')
         $('.cool_5').toggleClass('cool_active')
     });
-    $('#rings_ball_4').touchstart(function(){
+    $('#rings_ball_4').click(function(){
         $('.cool_5').removeClass('cool_active')
-
-        // $('.cool_4').toggleClass('cool_active')
+        $('.cool_4').toggleClass('cool_active')
     });
 }
 
