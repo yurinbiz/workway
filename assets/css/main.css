@@ -800,6 +800,7 @@ transform: none!important;
 
 
 @media screen and (max-width: 768px) {
+
     .cards_container{
         padding-left: 0px!important; padding-bottom: 0px!important; padding-top: 0px!important;
     }
@@ -1140,6 +1141,9 @@ background-position: 2.5% 17px!important;
 }
 
 @media screen and (max-width: 660px) {
+    .galka_text {
+        line-height: 22px!important;
+    }
     .header_mobile_quiz{
 transform: none!important;
     }
@@ -1281,8 +1285,42 @@ margin-top: -114px!important;
 }
 
 @media screen and (max-width: 450px) {
+    .our_suggestions_days_one {
+        font-family: 'Conv_DaysOne-Regular'!important;
+        font-weight: 400!important;
+}
+    .modal-content-question-mobile{
+        /* margin-top: -150px!important; */
+    }
+    .btn_question_mobile{
+        width: 148px!important;
+    }
+    .input_my_textarea{
+        min-height: 186px!important;   
+        border-radius: 15px!important; 
+    }
+    .question_or {
+        margin-top: 0px!important;
+    }
+    .input_my_question{
+        margin-bottom: 20px!important;
+    }
+    .modal_des{
+        margin-bottom: 30px!important;
+    }
+    .questions_icon{
+        display: none!important;
+    }
+    .modal_question{
+        padding: 41px 21px!important;
+    }
+    .modal_question{
+        margin-left: 16px;
+        margin-right: 16px;
+        min-height: fit-content!important;
+    }
     .mobile_dad{
-    margin-top: 110px
+    margin-top: 110px;
     }
     .pink_border{ 
         margin-top: 0px!important;
@@ -1440,6 +1478,9 @@ html {
 
 
 /*UPDATES /////////////////////////////////////// */
+.color_main{
+    color: #00164C;
+}
 .connection_header{
     font-size: 48px;
     line-height: 61px;
@@ -1877,7 +1918,7 @@ a:hover{
     transition: .3s;
 }
 .color_black{
-    color: black;
+    color: #00164C;
 }
 .color_gold:hover{
     color: #FFAA00;
@@ -2325,7 +2366,13 @@ height: 4px;
     padding: 50px;
 }
 /* ////////////////////////////// */
-
+.question_or {
+    text-align: center;
+    margin-top: -15px;
+}
+.our_suggestions_days_one {
+    font-weight: 700;
+}
 
 .footer_link:hover{
     color: #798CBB;
