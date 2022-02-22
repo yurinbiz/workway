@@ -2543,7 +2543,9 @@ height: 4px;
 .our_suggestions_days_one {
     font-weight: 700;
 }
-
+input {
+    appearance: none;
+}
 .footer_link:hover{
     color: #798CBB;
 }
