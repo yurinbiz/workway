@@ -8296,7 +8296,7 @@ h1, h2, h3, h4, h5,
     .table .row .cell {
       /* width: 14.28%; */
       cursor: pointer;
-      color: #9214A7;
+      color: #FFAA00;
       width: 42px;
       height: 42px;
       padding: 5px;
@@ -8557,12 +8557,24 @@ h1, h2, h3, h4, h5,
   }
 
   @media screen and (max-width: 600px) {
+    .table .row.head {
+      font-size: 10px!important;
+  }
+  .table{
+    font-size: 13px!important;
+    line-height: 21px!important;
+  }
 
+  .calendar .header .text > span{
+    font-size: 14px!important;
+    line-height: 22.38px!important;
+    padding: 6px!important;
+  }
   .calendar {
     width: 99.2%!important;
 }
 .table .row .cell.active {
-  width: 19%!important;
-  padding-bottom: 7px!important;
+  width: 16%!important;
+  padding-top: 5px!important;
 }
   }
