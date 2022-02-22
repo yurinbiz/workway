@@ -780,7 +780,7 @@ transform: none!important;
     .client {
         width: 114px!important;
         height: 110px!important;
-        transform: translate(0px, 62px);
+        transform: translate(-8px, 62px);
     }
     .rings_ball_5 {
         top: 1%!important;
