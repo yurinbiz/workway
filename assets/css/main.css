@@ -1166,6 +1166,10 @@ padding: 14px 46px!important;
 background-position: 2.5% 17px!important;
     background-size: 3%!important;
     }
+    .privicy_paragraph {
+        font-size: 14px!important;
+        line-height: 26px!important;
+    }
 }
 
 
@@ -1975,13 +1979,10 @@ margin-bottom: 67px!important;
 /*UPDATES /////////////////////////////////////// */
 
 
-
-
-
-
-
-
-
+.privicy_paragraph {
+    font-size: 24px;
+    line-height: 40px;
+}
 
 .requisites_item_size{
     font-size: 16px;
