@@ -212,7 +212,7 @@
 					</div>
 			
 					<ul class="connection_list d-md-block d-flex mt-md-0 mt-40 mb-md-0 mb-40">
-						<li class="connection_item mr-md-0 mr-4  mb-md-4 mb-0">
+						<li id="up_btn" class="connection_item mr-md-0 mr-4  mb-md-4 mb-0">
 							<svg class="connection_icon" width="54" height="55" viewBox="0 0 54 55" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<circle class="connection_icon_active" cx="27" cy="27.4297" r="26" stroke="white" stroke-width="2"/>
 								<path class="connection_icon_active_path" d="M27.7133 22.2312C27.3247 21.8425 26.6753 21.8425 26.2857 22.2312L17.2952 31.1986C16.9016 31.5923 16.9016 32.2306 17.2952 32.6233C17.6889 33.0169 18.3282 33.0169 18.7218 32.6233L27 24.3682L35.2771 32.6243C35.6717 33.0179 36.3101 33.0179 36.7047 32.6243C37.0983 32.2306 37.0983 31.5923 36.7047 31.1996L27.7133 22.2312Z" fill="white"/>
@@ -264,7 +264,7 @@
 							</ul>
 							<div class="d-md-flex d-none" style="margin-top: -12px;">
 								<a href="mail.ru" class="email color_gold fs-md-24 fs-18 fw-700">workway@.ru</a>
-								<a  href="tel: 7-980-345-56-78" class="phone color_gold fs-md-24 fs-18 fw-700">7 980 345 56 78</a>
+								<a  href="tel: 7-980-345-56-78" class="phone color_gold fs-md-24 fs-18 fw-700">+ 7 980 345 56 78</a>
 							</div>
 						</div>
 			
@@ -354,6 +354,10 @@
 
 
 <script>
+
+$('#up_btn').click(function(){
+    window.scrollTo(pageYOffset, 0);
+});
     
     $('#question_btn_mobile').click(function() {
         $('#modal-burger').modal('hide')
