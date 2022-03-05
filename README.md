@@ -1,3 +1,3 @@
 # workway
 
-https://snoz-an.github.io/workway/
+https://yurinbiz.github.io/workway/
